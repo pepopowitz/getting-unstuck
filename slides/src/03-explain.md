@@ -1,11 +1,12 @@
 ---
 Layout: module
-## Explain the problem
+# 1. Explain
+# the problem
 ---
 
-Trail: Explain
+Trail: 1. Explain
 
-### Write up an email/Slack message/StackOverflow post describing the problem
+## Write a message describing the problem
 
 Notes:
 
@@ -13,41 +14,33 @@ You might not even have to post them!
 
 ---
 
-Trail: Explain,Write
+Trail: 1. Explain,Write
 
-Pics:
-
-- an email
+TODO: pic of an email
 
 ---
 
-Trail: Explain,Write
+Trail: 1. Explain,Write
 
-Pics:
-
-- a stack overflow post
+TODO: pic of a stack overflow post
 
 ---
 
-Trail: Explain,Write
+Trail: 1. Explain,Write
 
-Pics:
-
-- a slack message
+TODO: pic of a slack message
 
 ---
 
-Trail: Explain,Write
+Trail: 1. Explain,Write
 
-Pics:
-
-- a slack message to slackbot
+TODO: pic of a slack message to slackbot
 
 ---
 
-Trail: Explain
+Trail: 1. Explain
 
-### Talk to the duck
+## Talk to the duck
 
 Pic: duck
 
@@ -68,9 +61,9 @@ But it is definitely most effective when it is out loud
 
 ---
 
-Trail: Explain
+Trail: 1. Explain
 
-### Talk to a person
+## Talk to a person
 
 Notes:
 
@@ -81,9 +74,11 @@ Just ask if you can explain something to them
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain
 
-### Pair with a person
+## Pair with a person
+
+Notes:
 
 Taking "talk to a person in a duck costume" a step further
 
@@ -91,50 +86,59 @@ todo: some basic pairing advice?
 
 ---
 
-Trail: Explain
+Trail: 1. Explain
 
 ## Why do these work?
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain,Why?
 
-1. Forces you to think more about how things are all fitting together, so you can explain it clearly
+### Forces you to think more about how things are all fitting together, so you can explain it clearly
 
-the best way to learn or understand something is to teach it.
+Notes:
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain, Why?
 
-Protege effect
+### The best way to learn or understand something is to teach it.
+
+---
+
+Trail: 1. Explain,Why?,Teaching
+
+## Protege effect
+
 https://effectiviology.com/protege-effect-learn-by-teaching/
 
 todo - fill more in here.
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain,Why?
 
-2. Challenges assumptions
+### Challenges assumptions
 
 To prove that the code you think is running is actually running
 
 ---
 
-Trail: Explain,Why?
+Layout: Summary
+
+Trail: 1. Explain,Why?
 
 ## Challenge assumptions
 
 Notes:
 
-All these strategies for explaining the problem have one critical thing in common:
+This is the most critical and important thing about ALL of these "explanation" strategies:
 
-They require you to challenge assumptions.
+They prompt you to challenge assumptions.
 
 ---
 
-Trail: Explain,Why?,Challenge Assumptions
+Trail: 1. Explain,Why?,Challenge Assumptions
 
 > "Experience this one thing for what it is, not what you think it is."
 
@@ -156,13 +160,13 @@ And what my kids are learning about their art
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain,Why?
 
-### Draw what you see, not what you THINK you see
+## Draw what you see, not what you THINK you see
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain,Why?
 
 > 1. Scribble
 > 2. Preschematic
@@ -181,7 +185,7 @@ Viktor Lowenfeld - professor of art education
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain,Why?
 
 > 1. Scribble
 > 2. Preschematic
@@ -198,11 +202,11 @@ I want to focus on the 3rd and 4th stages - which is when a young artist - or so
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain,Why?
 
 ### Schemas
 
-pic: schematic drawing
+TODO: pic of schematic drawing
 
 Notes:
 
@@ -216,12 +220,12 @@ And when you ask me to draw an eye, as a child in the schematic stage, this is w
 
 ---
 
-Trail: Explain,Why?
+Trail: 1. Explain,Why?
 
 ### Schemas -> Realism
 
-pic: schematic drawing
-pic: realistic drawing
+TODO: pic of schematic drawing
+TODO: pic of realistic drawing
 
 Notes:
 
@@ -235,9 +239,9 @@ It has incredible detail and subtlety.
 
 ---
 
-Trail: Explain,Why?,Schemas & Symbols
+Trail: 1. Explain,Why?,Schemas & Symbols
 
-Pic: biz-logic, settings, db, mail as symbols
+TODO: pic of biz-logic, settings, db, mail as symbols
 
 Notes:
 
@@ -257,9 +261,9 @@ We _have_ to do this - because if we didn't....
 
 ---
 
-Trail: Explain,Why?,Schemas & Symbols
+Trail: 1. Explain,Why?,Schemas & Symbols
 
-Pic: focus other blocks, one at a time?
+TODO: pic of focus other blocks, one at a time?
 
 Notes:
 
@@ -272,9 +276,3 @@ But our black boxes don't always work as intended.
 Explaining the problem forces you to evaluate every assumption and every black box, and expand the details of each of them.
 
 Until you can identify what's not working right.
-
----
-
-Layout: module
-
-## Isolate The Problem

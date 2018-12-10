@@ -1,41 +1,60 @@
 ---
 Layout: module
-## Escape The Problem
+# 3. Escape
+# The Problem
 ---
 
-Trail: Escape
+Trail: 3. Escape
 
-### Relax
+## Relax
 
 Notes:
 
 Take a shower, take a nap, ....
+
+---
+
+Trail: 3. Escape, Relax, Why?
+
+TODO - illustrate how changing context helps your brain explore new ideas
+
+Notes:
 
 http://mentalfloss.com/article/52586/why-do-our-best-ideas-come-us-shower
 A. In creativity research, we refer to the three Bs—for the bathtub, the bed and the bus—places where ideas have famously and suddenly emerged. When we take time off from working on a problem, we change what we're doing and our context, and that can activate different areas of our brain. If the answer wasn't in the part of the brain we were using, it might be in another. If we're lucky, in the next context we may hear or see something that relates—distantly—to the problem that we had temporarily put aside.
 
 ---
 
-Trail: Escape
+Trail: 3. Escape
 
-### Physical exercise
+## Physical exercise
 
-find research on this
+---
+
+Trail: 3. Escape, Physical Exercise
+
+TODO: find research on this
 
 https://www.newyorker.com/tech/annals-of-technology/walking-helps-us-think
 https://www.ncbi.nlm.nih.gov/pubmed/20890449
 
 ---
 
-Trail: Escape
+Trail: 3. Escape
 
-### Other hobbies
+## Other hobbies
+
+Notes:
+
+Similar effects to resting - our brain explores new ideas
+
+this is a very individualized strategy - ash plays guitar
 
 ---
 
-Trail: Escape
+Trail: 3. Escape
 
-### Move on to another problem
+## Move on to another problem
 
 Notes:
 
@@ -43,72 +62,52 @@ Put this one aside. Work on something else you know how to solve. 2 things can h
 
 ---
 
-Trail: Escape, Move On
+Trail: 3. Escape, Move On, Why?
 
-#### Your brain might come up with the answer while thinking about other things
+### Your brain might come up with the answer while thinking about other things
 
---
+---
 
-#### When you come back to the original problem, you have to re-learn it a bit
+Trail: 3. Escape, Move On, Why?
+
+### When you come back to the original problem, you have to re-learn it a bit
 
 Notes:
 
 This can help you challenge assumptions, like talking to the duck.
 
-escaping is a very individualized strategy - ash plays guitar
-
 ---
 
-Trail: Escape, Why?
+Trail: 3. Escape, Why?
 
-### Analogical problem solving
+## Analogical problem solving
+
+TODO: illustrate this
 
 Notes:
 
-use information from one domain (the source or analogy) to help solve a problem in another domain (the target)
+use information from one domain (the source or analogy)
+
+to help solve a problem in another domain (the target)
+
 http://cognitivepsychology.wikidot.com/problem-solving:analogy
 
 ---
 
-Trail: Escape, Why?
+Trail: 3. Escape, Why?
 
-### Incubation
-
-Notes:
-
-fill in mihaly stuff here!
+## Incubation
 
 ---
 
-Trail: Escape
+Trail: 3. Escape, Why?, Incubation
 
-## Harden yourself for the next time
-
-TODO this isn't really escape, anymore. What is it?
-
---
-
-### Wall of motivation
-
---
-
-### Persistence
+TODO: fill in mihaly stuff here!
 
 ---
-
-Trail: Escape, Harden Yourself
-
-> Curiosity and drive are in many ways the yin and the yang that need to be combined in order to achieve something new.
-
----
-
-## Secret: these strategies also work for non-coding problems.
 
 ## Notes
 
-find a place - reaching out to another person is definitely on the table, but you should make a solid effort with other strategies before doing so
-
-mihaly csikszen...
 mihaly Csikszentmihalyi
 mee-hi chick-sent-mee-hi
 popularized "flow"
@@ -137,7 +136,4 @@ https://traviswhitecommunications.com/2012/12/26/creativity-in-five-steps/
 
     But the truth is, for really complicated problems, where your brain and your creativity need to expand in many directions to find a solution, staying actively focused can be a detriment. Giving your brain some room to explore the space, on its own time, can help you explore ideas that your focused, rational mind would initially reject.
 
-    So go for a walk. Go work out. Take a shower, or a nap. Play some vids. Read a book about something unrelated. Get in your basement and do some woodworking. Go mountain biking or trail running or rock climbing. Let your brain expand this problem in many other directions.
-
-is there anything about the mental/emotional effects of feeling stuck?
-like, how do you convince yourself everything is okay when you get stuck? one option might be to "track your achievements".
+    So go for a walk. Go work out. Take a shower, or a nap. Read a book about something unrelated. Get in your basement and do some woodworking. Knit. Go mountain biking or trail running or rock climbing. Let your brain expand this problem in many other directions.
