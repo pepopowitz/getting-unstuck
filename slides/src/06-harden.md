@@ -90,4 +90,6 @@ Layout: Summary
 
 Trail: 4. Harden
 
-TODO: summarize harden somehow
+## Strengthen your TODO????
+
+your resolve? stay driven? self-awareness?

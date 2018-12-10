@@ -142,7 +142,7 @@ Trail: 1. Explain,Why?,Challenge Assumptions
 
 > "Experience this one thing for what it is, not what you think it is."
 
-Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention"
+Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
 Notes:
 

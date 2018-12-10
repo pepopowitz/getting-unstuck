@@ -15,3 +15,10 @@ We don't know where the problem is. Maybe it's in the glue. Maybe the cotton bal
 Code removal starts with your finished santa mask, and tries to prune things until it can find the culprit.
 
 A proof of concept starts with the bare materials - a cotton ball, a paper plate, a square of construction paper - and you try to piece it together with as little glue as possible, to prove that the paper plate and construction paper made competing assumptions.
+
+---
+
+how do i get custom favicons? I can't edit the html.
+
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

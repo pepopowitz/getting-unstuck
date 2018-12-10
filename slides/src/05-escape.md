@@ -92,6 +92,14 @@ to help solve a problem in another domain (the target)
 
 http://cognitivepsychology.wikidot.com/problem-solving:analogy
 
+...
+
+This happens when you notice parallels between two very different activities;
+
+this prompts you to notice OTHER parallels between them
+
+which can include a reframing of the problem in a way you hadn't before.
+
 ---
 
 Trail: 3. Escape, Why?
@@ -102,38 +110,119 @@ Trail: 3. Escape, Why?
 
 Trail: 3. Escape, Why?, Incubation
 
-TODO: fill in mihaly stuff here!
+## 4 Stages of Creativity
+
+1. Preparation
+2. Incubation
+3. Illumination
+4. Verification
+
+Graham Wallas, "The Art Of Thought", 1926
+
+Notes:
+
+Political scientist
+
+1: problem is investigated consciously, in many directions
+
+2: you put the problem away. Do nothing, or do a different problem. Unconscious processing.
+
+3: the preparation & the incubation come together, and you have a sudden insight.
+
+4: conscious analysis of the idea. Prove it out.
+
+These don't happen in isolation - they very much play together.
 
 ---
 
-## Notes
+Trail: 3. Escape, Why?, Incubation
 
-mihaly Csikszentmihalyi
-mee-hi chick-sent-mee-hi
-popularized "flow"
-wrote a book called creativity
-https://www.blinkist.com/books/creativity-en?r=1&st=mihaly
+## 5 Stages of Creativity
 
-incubation - the idea that the brain works on problems once you've walked away from them
-https://traviswhitecommunications.com/2012/12/26/creativity-in-five-steps/
+1. Preparation
+2. Incubation
+3. Illumination
+4. Evaluation
+5. Elaboration
 
-    Mihaly Csikszentmihalyi — while not guaranteeing results — writes that creativity typically evolves through five stages.
+Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
-      The first stage is preparation. Basically, you need to know the rules before you break them. Thomas Kuhn writes that scientific paradigms reflect a basic consensus of how the world operates. Prior to Copernicus, the astronomical paradigm held that the earth was the center of the universe. Before Copernicus could change the paradigm, he had to immerse himself in it. Only then could he make the observations that changed the paradigm.
+Notes:
 
-      The second phase is incubation, “… during which ideas churn around below the threshold of consciousness.” This is when I like to go for a walk. I like to lay things aside, clear my head, and let my mind wander. It’s a haphazard process — sometimes nothing happens. Sometimes I simply forget what I was thinking about. Other times, however, something bubbles up that’s worth capturing. (One of the reasons I write this blog is to double back on my own thinking, recall what I wrote months ago, and perhaps make connections I would otherwise miss).
+4: vet the idea
 
-      Third, is the insight — the Aha moment. As we saw in the article on sleepiness and creativity (click here), focusing intently on the problem at hand may actually inhibit the Aha experience. When you focus, you block out random thoughts and stray ideas. But it’s those very thoughts and ideas that may produce the insight. When you’re tired — or when you can induce your mind to wander — those stray thoughts are not blocked out and can help you see things more creatively.
+5: expand on your new ideas. Test them, refine them, figure out how to best apply them.
 
-    From "Creativity":
-      The distinction between serial and parallel processing of information may also explain what happens during incubation. In a serial system like that of an old-fashioned calculator, a   complex numerical problem must be solved in a sequence, one step at a time. In a parallel system such as in advanced computer software, a problem is broken up into its component steps, the partial computations are carried out simultaneously, and then these are reconstituted into a single final solution. Something similar to parallel processing may be taking place when the elements of a problem are said to be incubating. When we think consciously about an issue, our previous training and the effort to arrive at a solution push our ideas in a linear direction, usually along predictable or familiar lines. But intentionality does not work in the subconscious. Free from rational direction, ideas can combine and pursue each other every which way. Because of this freedom, original connections that would be at first rejected by the rational mind have a chance to become established.
+---
 
-    This ^^ is really similar to talking about asynchrony in code.
+Trail: 3. Escape, Why?, Incubation
 
-    Often when we're faced with a difficult problem, we think we need to really focus on it.
+> ...ideas churn around **below the threshold of consciousness**. It is during this time that **unusual connections** are likely to be made.
 
-    We think that we are procrastinating if we aren't actively attacking it.
+Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
-    But the truth is, for really complicated problems, where your brain and your creativity need to expand in many directions to find a solution, staying actively focused can be a detriment. Giving your brain some room to explore the space, on its own time, can help you explore ideas that your focused, rational mind would initially reject.
+Notes:
 
-    So go for a walk. Go work out. Take a shower, or a nap. Read a book about something unrelated. Get in your basement and do some woodworking. Knit. Go mountain biking or trail running or rock climbing. Let your brain expand this problem in many other directions.
+---
+
+Trail: 3. Escape, Why?, Incubation
+
+> When we intend to solve a problem consciously, we process information in a linear, logical fashion. But when ideas call to each other on their own, **without our leading them down a straight and narrow path**, unexpected combinations may come into being.
+
+Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
+
+Notes:
+
+---
+
+Trail: 3. Escape, Why?, Incubation
+
+TODO: illustration of linear processing
+
+TODO: illustration of parallel processing
+
+<!-- .element: class="fragment" -->
+
+Notes:
+
+He even goes on to compare this to parallel computing, right in our wheelhouse:
+
+when we are consciously thinking about a problem, we push it in a linear direction. Like serial processing.
+
+when we let it incubate, it expands to parallel processing.
+
+There's a freedom in your problem solving:
+
+things can combine in ways that your conscious mind would reject.
+
+...
+
+From "Creativity":
+
+The distinction between serial and parallel processing of information may also explain what happens during incubation. In a serial system like that of an old-fashioned calculator, a complex numerical problem must be solved in a sequence, one step at a time. In a parallel system such as in advanced computer software, a problem is broken up into its component steps, the partial computations are carried out simultaneously, and then these are reconstituted into a single final solution. Something similar to parallel processing may be taking place when the elements of a problem are said to be incubating. When we think consciously about an issue, our previous training and the effort to arrive at a solution push our ideas in a linear direction, usually along predictable or familiar lines. But intentionality does not work in the subconscious. Free from rational direction, ideas can combine and pursue each other every which way. Because of this freedom, original connections that would be at first rejected by the rational mind have a chance to become established.
+
+---
+
+Layout: Summary
+Trail: 3. Escape
+
+## Set It Aside
+
+Notes:
+
+Often when we're faced with a difficult problem, we think we need to really focus on it.
+
+We think that we are procrastinating if we aren't actively attacking it.
+
+But the truth is, for really complicated problems, where your brain and your creativity need to expand in many directions to find a solution, staying actively focused can be a detriment. Giving your brain some room to explore the space, on its own time, can help you explore ideas that your focused, rational mind would initially reject.
+
+- walk
+- work out
+- Take a shower
+- or a nap.
+- Read a book about something unrelated.
+- basement - woodworking.
+- Knit.
+- mountain biking, trail running, rock climbing.
+
+Let your brain expand this problem in many other directions.
