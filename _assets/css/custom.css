@@ -65,3 +65,11 @@ body {
 .reveal .module .footer {
   color: var(--brand-light);
 }
+
+.reveal blockquote {
+  box-shadow: none;
+}
+.reveal blockquote + p {
+  color: var(--brand-context);
+  font-style: italic;
+}

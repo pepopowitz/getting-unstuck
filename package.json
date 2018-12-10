@@ -6,8 +6,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "npm run stitch && concurrently --names 'REVEAL,STITCH' -c 'red,blue' 'reveal-md -w ./slides/stitched.md' 'npm run watch'",
-    "build": "npm run stitch && reveal-md ./slides/stitched.md --static _site",
+    "start": "npm run stitch && concurrently --names 'REVEAL,STITCH' -c 'red,blue' 'npm run start:reveal' 'npm run watch'",
+    "build": "npm run stitch && npm run build:reveal",
+    "build:reveal": "reveal-md ./slides/stitched.md --static _site --static-dirs=fonts,images,_assets --assets-dir ''",
+    "start:reveal": "reveal-md -w ./slides/stitched.md",
     "stitch": "node _build/stitch.js",
     "watch": "npm-watch",
     "test": "jest --watch"
