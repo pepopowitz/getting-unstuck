@@ -8,41 +8,45 @@ Trail: 1. Explain
 
 ## Write a message describing the problem
 
+---
+
+Trail: 1. Explain,Write
+
+### Email
+
+### Slack
+
+  <!-- .element: class="fragment" -->
+
+### Slack **to slackbot**
+
+  <!-- .element: class="fragment" -->
+
+### StackOverflow
+
+  <!-- .element: class="fragment" -->
+
+### Blog post
+
+  <!-- .element: class="fragment" -->
+
+### GitHub issue
+
+  <!-- .element: class="fragment" -->
+
 Notes:
 
-You might not even have to post them!
+You might not even have to send the message!
 
 ---
 
-Trail: 1. Explain,Write
-
-TODO: pic of an email
-
----
-
-Trail: 1. Explain,Write
-
-TODO: pic of a stack overflow post
-
----
-
-Trail: 1. Explain,Write
-
-TODO: pic of a slack message
-
----
-
-Trail: 1. Explain,Write
-
-TODO: pic of a slack message to slackbot
-
----
+Layout: img-30
 
 Trail: 1. Explain
 
 ## Talk to the duck
 
-Pic: duck
+![Talk to the duck](/images/drawings/talk-to-the-duck.png)
 
 Notes:
 
@@ -59,6 +63,14 @@ it can be imaginary
 
 But it is definitely most effective when it is out loud
 
+Explain the problem to the duck.
+
+Walk them through the code. Out loud.
+
+...
+
+the duck can be a fake thing...
+
 ---
 
 Trail: 1. Explain
@@ -67,10 +79,19 @@ Trail: 1. Explain
 
 Notes:
 
-Same thing as before, except your coworkers are the duck
-Pic: person in a duck costume
+TODO: pic: coworker in a duck costume?
 
-Just ask if you can explain something to them
+Or it can be a real thing.
+
+Same thing as before, except your coworkers are the duck
+
+Ask them to come look over your shoulder
+
+Explain the problem,
+
+what is/isn't happening,
+
+and walk them through the code.
 
 ---
 
@@ -82,7 +103,11 @@ Notes:
 
 Taking "talk to a person in a duck costume" a step further
 
-todo: some basic pairing advice?
+we pair a TON at artsy
+
+not all the time - that can overwhelm people
+
+but a couple hours a day works really great for tricky problems.
 
 ---
 
@@ -90,37 +115,73 @@ Trail: 1. Explain
 
 ## Why do these work?
 
+Notes:
+
+I think they can partly be explained by something in psych called...
+
 ---
 
 Trail: 1. Explain,Why?
+
+## Protege Effect
+
+### The best way to learn or understand something is to teach it.
+
+Notes:
+
+if you've ever taught someone something,
+
+through 1on1, or a lunch n learn, or a workshop, or teaching interns,
+
+you've seen this.
+
+A couple things that happen when you're teaching something:
+
+---
+
+Trail: 1. Explain,Why?,Protege Effect
+
+### Inspires you to learn the topic thoroughly
+
+Notes:
+
+Because you're going to have to explain it,
+
+& you don't want to look a fool,
+
+you use better learning strategies.
+
+---
+
+Trail: 1. Explain,Why?,Protege Effect
 
 ### Forces you to think more about how things are all fitting together, so you can explain it clearly
 
 Notes:
 
----
+...
 
-Trail: 1. Explain, Why?
+It also has a meta effect - while learning, you're thinking about **how** you're learning
 
-### The best way to learn or understand something is to teach it.
+and how others might best learn it
 
----
-
-Trail: 1. Explain,Why?,Teaching
-
-## Protege effect
-
-https://effectiviology.com/protege-effect-learn-by-teaching/
-
-todo - fill more in here.
+Psychologists call this "metacognitive processing".
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Protege Effect
 
-### Challenges assumptions
+> ...students in the learning by **preparing to teach** intervention developed a more detailed and better-organized concept map of the problem...
 
-To prove that the code you think is running is actually running
+[Muis, Krista, et al. "Learning by preparing to teach: Fostering self-regulatory processes and achievement during complex mathematics problem solving."](http://psycnet.apa.org/doiLanding?doi=10.1037%2Fedu0000071)
+
+Notes:
+
+Interesting thing about the protege effect is that you don't actually have to teach for it to work for you -
+
+you just have to EXPECT to teach
+
+This is from a study from 2016 demonstrating the protege effect
 
 ---
 
@@ -132,7 +193,13 @@ Trail: 1. Explain,Why?
 
 Notes:
 
-This is the most critical and important thing about ALL of these "explanation" strategies:
+The other thing that happens when you explain something to someone:
+
+To prove that the code you think is running is actually running
+
+...
+
+IMO, This is the most critical and important thing about ALL of these "explanation" strategies:
 
 They prompt you to challenge assumptions.
 
@@ -145,6 +212,8 @@ Trail: 1. Explain,Why?,Challenge Assumptions
 Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
 Notes:
+
+this makes me think about some ideas from Mihaly.
 
 Mihaly - wrote "Creativity"
 
@@ -160,13 +229,13 @@ And what my kids are learning about their art
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
 ## Draw what you see, not what you THINK you see
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
 > 1. Scribble
 > 2. Preschematic
@@ -185,7 +254,7 @@ Viktor Lowenfeld - professor of art education
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
 > 1. Scribble
 > 2. Preschematic
@@ -202,11 +271,11 @@ I want to focus on the 3rd and 4th stages - which is when a young artist - or so
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
-### Schemas
+<!-- .slide: data-background="/images/drawings/eye-schematic.png" class="eye" data-background-size="contain" -->
 
-TODO: pic of schematic drawing
+## Schematic
 
 Notes:
 
@@ -220,12 +289,11 @@ And when you ask me to draw an eye, as a child in the schematic stage, this is w
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
-### Schemas -> Realism
+<!-- .slide: data-background="/images/drawings/eye-realistic.png" class="eye" data-background-size="contain" -->
 
-TODO: pic of schematic drawing
-TODO: pic of realistic drawing
+## Schematic vs. Realistic
 
 Notes:
 
@@ -239,9 +307,9 @@ It has incredible detail and subtlety.
 
 ---
 
-Trail: 1. Explain,Why?,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
 
-TODO: pic of biz-logic, settings, db, mail as symbols
+<!-- .slide: data-background="/images/drawings/deps-0-complex.png" class="deps-complex" data-background-size="contain" -->
 
 Notes:
 
@@ -251,19 +319,31 @@ You make assumptions.
 
 You build up this model in your head of all the pieces that are working together.
 
-But they are black boxes.
+We treat them in our head as black boxes.
 
-They are symbols in your head, and you just assume they work as intended.
-
-...
-
-We _have_ to do this - because if we didn't....
+They are symbols, and you just assume they work as intended.
 
 ---
 
-Trail: 1. Explain,Why?,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
 
-TODO: pic of focus other blocks, one at a time?
+<!-- .slide: data-background="/images/drawings/deps-1-complex.png" class="deps-complex" data-background-size="contain" -->
+
+Notes:
+
+But behind each black box lies complexity & detail
+
+...
+
+We _have_ to treat them as black boxes, though -
+
+because if we didn't....
+
+---
+
+Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
+
+<!-- .slide: data-background="/images/drawings/deps-all-complex.png" class="deps-complex" data-background-size="contain" -->
 
 Notes:
 
@@ -273,6 +353,6 @@ Too many details.
 
 But our black boxes don't always work as intended.
 
-Explaining the problem forces you to evaluate every assumption and every black box, and expand the details of each of them.
+Explaining the problem forces you to evaluate every assumption and every black box, and explore the details of each of them.
 
-Until you can identify what's not working right.
+And that's when you uncover the issue.

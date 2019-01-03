@@ -10,6 +10,8 @@ Notes:
 
 1. Who in this room considers themselves a junior in their career? mid-level? senior?
 
+(describe the breakdown)
+
 ...
 
 2. Who in this room can think of a time that they were stuck?
@@ -77,3 +79,19 @@ Trail: 0. Embrace
 Notes:
 
 This is what we're getting paid to do! Solve problems. To get stuck, and then get unstuck. This is our unique skill. It's why we get paid to do our job instead of someone else.
+
+---
+
+Trail: 0. Embrace
+
+# It takes time to solve problems
+
+Notes:
+
+So it's okay to be stuck - that's just you doing your job -
+
+which is to solve problems, not commit lines of code.
+
+...
+
+with that, let's see some more actionable strategies -

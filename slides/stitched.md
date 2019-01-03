@@ -8,6 +8,8 @@ revealOptions:
   center: true
 css: _assets/css/custom.css
 preprocessor: _build/inject.js
+width: '100%'
+height: '100%'
 ---
 Footer: false
 
@@ -20,9 +22,19 @@ Footer: false
 - steven.j.hicks@gmail.com
 - stevenhicks.me/getting-unstuck
 
-Notes: These are notes
+Notes:
 
-and more notes here
+---
+
+Footer: false
+
+<!-- .slide: data-background="/images/artsy.svg" data-background-size="750px" data-background-color="black" -->
+
+Notes:
+
+our mission is to expand the art market,
+
+and we're doing that with a platform for collecting and discovering art.
 
 ---
 
@@ -32,21 +44,31 @@ Layout: module
 
 Notes:
 
+"Stuck" is a nebulous word.
+
+Not very clear.
+
+So I want to be clear about what I mean when I say "stuck".
+
+Stuck is when you've been looking at code for minutes, or hours, or days, that you SWEAR should be working.
+
+You've gone over it many times, and you can't figure out why it's not doing what you think it should be doing.
+
+You've been looking at it so long you're frustrated.
+
+...
+
+My favorite thing in development is the act of getting unstuck,
+
+or helping someone else get unstuck.
+
 when I hear in standup that someone is stuck, my ears perk up.
 
-My favorite thing in development is getting unstuck.
+Over the past few months, I've taken notes about how I and my coworkers get ourselves unstuck, and I want to share some tips with you.
 
-So....that's why I'm talking about this?
+...
 
----
-
-TODO: Describe what "stuck" means
-
-Notes:
-
-So with that...let's talk about some strategies to get unstuck.
-
-## My first strategy is...only kind of a strategy.
+My first strategy is...only kind of a strategy.
 ---
 Layout: module
 # 0. Embrace
@@ -58,6 +80,8 @@ Layout: module
 Notes:
 
 1. Who in this room considers themselves a junior in their career? mid-level? senior?
+
+(describe the breakdown)
 
 ...
 
@@ -126,6 +150,22 @@ Trail: 0. Embrace
 Notes:
 
 This is what we're getting paid to do! Solve problems. To get stuck, and then get unstuck. This is our unique skill. It's why we get paid to do our job instead of someone else.
+
+---
+
+Trail: 0. Embrace
+
+# It takes time to solve problems
+
+Notes:
+
+So it's okay to be stuck - that's just you doing your job -
+
+which is to solve problems, not commit lines of code.
+
+...
+
+with that, let's see some more actionable strategies -
 ---
 Layout: module
 # 1. Explain
@@ -136,41 +176,45 @@ Trail: 1. Explain
 
 ## Write a message describing the problem
 
+---
+
+Trail: 1. Explain,Write
+
+### Email
+
+### Slack
+
+  <!-- .element: class="fragment" -->
+
+### Slack **to slackbot**
+
+  <!-- .element: class="fragment" -->
+
+### StackOverflow
+
+  <!-- .element: class="fragment" -->
+
+### Blog post
+
+  <!-- .element: class="fragment" -->
+
+### GitHub issue
+
+  <!-- .element: class="fragment" -->
+
 Notes:
 
-You might not even have to post them!
+You might not even have to send the message!
 
 ---
 
-Trail: 1. Explain,Write
-
-TODO: pic of an email
-
----
-
-Trail: 1. Explain,Write
-
-TODO: pic of a stack overflow post
-
----
-
-Trail: 1. Explain,Write
-
-TODO: pic of a slack message
-
----
-
-Trail: 1. Explain,Write
-
-TODO: pic of a slack message to slackbot
-
----
+Layout: img-30
 
 Trail: 1. Explain
 
 ## Talk to the duck
 
-Pic: duck
+![Talk to the duck](/images/drawings/talk-to-the-duck.png)
 
 Notes:
 
@@ -187,6 +231,14 @@ it can be imaginary
 
 But it is definitely most effective when it is out loud
 
+Explain the problem to the duck.
+
+Walk them through the code. Out loud.
+
+...
+
+the duck can be a fake thing...
+
 ---
 
 Trail: 1. Explain
@@ -195,10 +247,19 @@ Trail: 1. Explain
 
 Notes:
 
-Same thing as before, except your coworkers are the duck
-Pic: person in a duck costume
+TODO: pic: coworker in a duck costume?
 
-Just ask if you can explain something to them
+Or it can be a real thing.
+
+Same thing as before, except your coworkers are the duck
+
+Ask them to come look over your shoulder
+
+Explain the problem,
+
+what is/isn't happening,
+
+and walk them through the code.
 
 ---
 
@@ -210,7 +271,11 @@ Notes:
 
 Taking "talk to a person in a duck costume" a step further
 
-todo: some basic pairing advice?
+we pair a TON at artsy
+
+not all the time - that can overwhelm people
+
+but a couple hours a day works really great for tricky problems.
 
 ---
 
@@ -218,37 +283,73 @@ Trail: 1. Explain
 
 ## Why do these work?
 
+Notes:
+
+I think they can partly be explained by something in psych called...
+
 ---
 
 Trail: 1. Explain,Why?
+
+## Protege Effect
+
+### The best way to learn or understand something is to teach it.
+
+Notes:
+
+if you've ever taught someone something,
+
+through 1on1, or a lunch n learn, or a workshop, or teaching interns,
+
+you've seen this.
+
+A couple things that happen when you're teaching something:
+
+---
+
+Trail: 1. Explain,Why?,Protege Effect
+
+### Inspires you to learn the topic thoroughly
+
+Notes:
+
+Because you're going to have to explain it,
+
+& you don't want to look a fool,
+
+you use better learning strategies.
+
+---
+
+Trail: 1. Explain,Why?,Protege Effect
 
 ### Forces you to think more about how things are all fitting together, so you can explain it clearly
 
 Notes:
 
----
+...
 
-Trail: 1. Explain, Why?
+It also has a meta effect - while learning, you're thinking about **how** you're learning
 
-### The best way to learn or understand something is to teach it.
+and how others might best learn it
 
----
-
-Trail: 1. Explain,Why?,Teaching
-
-## Protege effect
-
-https://effectiviology.com/protege-effect-learn-by-teaching/
-
-todo - fill more in here.
+Psychologists call this "metacognitive processing".
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Protege Effect
 
-### Challenges assumptions
+> ...students in the learning by **preparing to teach** intervention developed a more detailed and better-organized concept map of the problem...
 
-To prove that the code you think is running is actually running
+[Muis, Krista, et al. "Learning by preparing to teach: Fostering self-regulatory processes and achievement during complex mathematics problem solving."](http://psycnet.apa.org/doiLanding?doi=10.1037%2Fedu0000071)
+
+Notes:
+
+Interesting thing about the protege effect is that you don't actually have to teach for it to work for you -
+
+you just have to EXPECT to teach
+
+This is from a study from 2016 demonstrating the protege effect
 
 ---
 
@@ -260,7 +361,13 @@ Trail: 1. Explain,Why?
 
 Notes:
 
-This is the most critical and important thing about ALL of these "explanation" strategies:
+The other thing that happens when you explain something to someone:
+
+To prove that the code you think is running is actually running
+
+...
+
+IMO, This is the most critical and important thing about ALL of these "explanation" strategies:
 
 They prompt you to challenge assumptions.
 
@@ -273,6 +380,8 @@ Trail: 1. Explain,Why?,Challenge Assumptions
 Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
 Notes:
+
+this makes me think about some ideas from Mihaly.
 
 Mihaly - wrote "Creativity"
 
@@ -288,13 +397,13 @@ And what my kids are learning about their art
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
 ## Draw what you see, not what you THINK you see
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
 > 1. Scribble
 > 2. Preschematic
@@ -313,7 +422,7 @@ Viktor Lowenfeld - professor of art education
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
 > 1. Scribble
 > 2. Preschematic
@@ -330,11 +439,11 @@ I want to focus on the 3rd and 4th stages - which is when a young artist - or so
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
-### Schemas
+<!-- .slide: data-background="/images/drawings/eye-schematic.png" class="eye" data-background-size="contain" -->
 
-TODO: pic of schematic drawing
+## Schematic
 
 Notes:
 
@@ -348,12 +457,11 @@ And when you ask me to draw an eye, as a child in the schematic stage, this is w
 
 ---
 
-Trail: 1. Explain,Why?
+Trail: 1. Explain,Why?,Challenge Assumptions
 
-### Schemas -> Realism
+<!-- .slide: data-background="/images/drawings/eye-realistic.png" class="eye" data-background-size="contain" -->
 
-TODO: pic of schematic drawing
-TODO: pic of realistic drawing
+## Schematic vs. Realistic
 
 Notes:
 
@@ -367,9 +475,9 @@ It has incredible detail and subtlety.
 
 ---
 
-Trail: 1. Explain,Why?,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
 
-TODO: pic of biz-logic, settings, db, mail as symbols
+<!-- .slide: data-background="/images/drawings/deps-0-complex.png" class="deps-complex" data-background-size="contain" -->
 
 Notes:
 
@@ -379,19 +487,31 @@ You make assumptions.
 
 You build up this model in your head of all the pieces that are working together.
 
-But they are black boxes.
+We treat them in our head as black boxes.
 
-They are symbols in your head, and you just assume they work as intended.
-
-...
-
-We _have_ to do this - because if we didn't....
+They are symbols, and you just assume they work as intended.
 
 ---
 
-Trail: 1. Explain,Why?,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
 
-TODO: pic of focus other blocks, one at a time?
+<!-- .slide: data-background="/images/drawings/deps-1-complex.png" class="deps-complex" data-background-size="contain" -->
+
+Notes:
+
+But behind each black box lies complexity & detail
+
+...
+
+We _have_ to treat them as black boxes, though -
+
+because if we didn't....
+
+---
+
+Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
+
+<!-- .slide: data-background="/images/drawings/deps-all-complex.png" class="deps-complex" data-background-size="contain" -->
 
 Notes:
 
@@ -401,9 +521,9 @@ Too many details.
 
 But our black boxes don't always work as intended.
 
-Explaining the problem forces you to evaluate every assumption and every black box, and expand the details of each of them.
+Explaining the problem forces you to evaluate every assumption and every black box, and explore the details of each of them.
 
-Until you can identify what's not working right.
+And that's when you uncover the issue.
 ---
 Layout: module
 # 2. Isolate
@@ -462,19 +582,37 @@ you can start removing code to isolate the source.
 
 Trail: 2. Isolate, Remove Code
 
+<!-- .slide: data-background="/images/drawings/remove-code-1.png" class="remove-code" data-background-size="contain" -->
+
 ## Delete code iteratively
-
-TODO: pic of deleting code iteratively/binary search
-
-<!-- .element: class="fragment" -->
 
 Notes:
 
 Binary search for the code that isn't working
 
+---
+
+Trail: 2. Isolate, Remove Code
+
+<!-- .slide: data-background="/images/drawings/remove-code-2.png" class="remove-code" data-background-size="contain" -->
+
+## Delete code iteratively
+
+Notes:
+
 This isn't always as simple as just deleting lines - often you'll need to rewrite code to accommodate the deleted lines.
 
 But you've removed complexity.
+
+---
+
+Trail: 2. Isolate, Remove Code
+
+<!-- .slide: data-background="/images/drawings/remove-code-3.png" class="remove-code" data-background-size="contain" -->
+
+## Delete code iteratively
+
+Notes:
 
 And eventually, you'll be able to isolate a smaller block of focus.
 
@@ -484,11 +622,9 @@ And then instead of dealing with 50 lines of code that don't work, you have 10.
 
 Trail: 2. Isolate, Remove Code
 
+<!-- .slide: data-background="/images/drawings/back-out-1.png" class="back-out-code" data-background-size="contain" -->
+
 ## Back out your changes iteratively
-
-TODO: pic of backing out of code iteratively/binary search
-
-<!-- .element: class="fragment" -->
 
 Notes:
 
@@ -496,7 +632,27 @@ Similarly, you can do a binary search of your recent changes.
 
 Assuming everything worked before you started making changes,
 
+---
+
+Trail: 2. Isolate, Remove Code
+
+<!-- .slide: data-background="/images/drawings/back-out-2.png" class="back-out-code" data-background-size="contain" -->
+
+## Back out your changes iteratively
+
+Notes:
+
 You can iteratively reverse them until things are working again -
+
+---
+
+Trail: 2. Isolate, Remove Code
+
+<!-- .slide: data-background="/images/drawings/back-out-3.png" class="back-out-code" data-background-size="contain" -->
+
+## Back out your changes iteratively
+
+Notes:
 
 And then you've again narrowed it down from 50 lines of code to 10 lines of code.
 
@@ -538,7 +694,7 @@ Build a proof of concept that demonstrates the problem, so it's easier to identi
 
 Trail: 2. Isolate, Proof of Concept
 
-TODO - illustrate somehow that I'm only including the pieces that I need to prove out
+TODO - lego camper as a demonstration of poc vs ripping code out
 
 ---
 
@@ -550,37 +706,49 @@ Trail: 2. Isolate, Proof of Concept, JavaScript
 
 Trail: 2. Isolate, Proof of Concept, JavaScript
 
-## Quokka.js
+## [Quokka.js](https://quokkajs.com/)
+
+quokkajs.com
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, JavaScript
 
-## JSFiddle
+## [JSFiddle](http://jsfiddle.net)
+
+jsfiddle.net
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, JavaScript
 
-## Codepen
+## [CodePen](https://codepen.io)
+
+codepen.io
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, JavaScript
 
-## CodeSandbox.io
+## [CodeSandbox](https://codesandbox.io/)
+
+codesandbox.io
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, C#/.NET
 
-## csharppad.com
+## [C# Pad](http://csharppad.com/)
+
+csharppad.com
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, C#/.NET
 
-## dotnetfiddle.net
+## [.NET Fiddle](https://dotnetfiddle.net/)
+
+dotnetfiddle.net
 
 ---
 
@@ -610,6 +778,14 @@ or you can save a .rb file (or two or three), and there are equivalent options t
 
 ---
 
+Trail: 3. Isolate, Proof of Concept
+
+## [repl.it](https://repl.it)
+
+repl.it
+
+---
+
 Trail: 2. Isolate
 
 ## Eat The Frog
@@ -634,13 +810,21 @@ Mark Twain
 
 Trail: 2. Isolate, Eat The Frog
 
-TODO: pic of dependencies together
+<!-- .slide: data-background="/images/drawings/deps-scary-0.png" class="deps-scary" data-background-size="contain" -->
 
 Notes:
 
 When you're faced with building a system with a bunch of pieces
 
 And you don't know which pieces to start with
+
+---
+
+Trail: 2. Isolate, Eat The Frog
+
+<!-- .slide: data-background="/images/drawings/deps-scary-1.png" class="deps-scary" data-background-size="contain" -->
+
+Notes:
 
 Choose the scariest thing about this system - the most risky - and start there.
 
@@ -658,7 +842,7 @@ this is a good strategy in TDD, too - write code to figure out HOW you'll solve 
 
 Trail: 2. Isolate, Eat The Frog
 
-TODO: pic of complicated dependency
+<!-- .slide: data-background="/images/drawings/deps-scary-2.png" class="deps-scary" data-background-size="contain" -->
 
 Notes:
 
@@ -704,29 +888,33 @@ I get preachy about writing tests
 
 It's one of the most useful skills for breaking down a problem.
 
----
+cuz testing is the best way to tighten your development feedback loop
 
-Trail: 2. Isolate, Write Tests, Why?
+of making changes, observing their effects, and repeating the cycle.
 
-## Tight Feedback Loops
+Without tests, your loop can be loose - it could be weeks or months before you see your code deployed and know if it worked.
 
-TODO: drawing of tight feedback loops vs loose
-
-Notes:
-
-TODO: Explain what tight feedback loops are and why I care.
+With tests, your loop can be as tight as a couple seconds.
 
 ...
 
-So here are some kinds of tests you can write that will help you isolate an issue.
+A few ways automated tests can help you isolate an issue:
 
 ---
 
 Trail: 2. Isolate, Write Tests
 
+<!-- .slide: data-background="/images/drawings/unit-test-existing-1.png" class="unit-test-existing" data-background-size="contain" -->
+
 ## Unit tests of existing functions
 
-TODO: drawing of unit test of existing function
+---
+
+Trail: 2. Isolate, Write Tests
+
+<!-- .slide: data-background="/images/drawings/unit-test-existing-2.png" class="unit-test-existing" data-background-size="contain" -->
+
+## Unit tests of existing functions
 
 Notes:
 
@@ -736,15 +924,25 @@ This will help you verify if a function is the problem, or an innocent bystander
 
 Trail: 2. Isolate, Write Tests
 
-## Unit tests of new functions
+<!-- .slide: data-background="/images/drawings/extract-1.png" class="unit-test-extract" data-background-size="contain" -->
 
-TODO: drawing of unit test of new function
+## Unit tests of new functions
 
 Notes:
 
 Find pieces that look like they could be isolated.
 
-Extract them to a function, pure if possible.
+---
+
+Trail: 2. Isolate, Write Tests
+
+<!-- .slide: data-background="/images/drawings/extract-2.png" class="unit-test-extract" data-background-size="contain" -->
+
+## Unit tests of new functions
+
+Notes:
+
+Extract them to a function.
 
 Write unit tests against that function
 
@@ -754,21 +952,65 @@ Can help you narrow down whether this functionality is the problem
 
 Trail: 2. Isolate, Write Tests
 
+<!-- .slide: data-background="/images/drawings/integration-1.png" class="integration " data-background-size="contain" -->
+
 ## Integration tests
 
-TODO: drawing of integration tests
+Notes:
+
+Effective strategy: integration tests iteratively from the top down -
 
 ---
 
 Trail: 2. Isolate, Write Tests
 
-## End-to-end tests
+<!-- .slide: data-background="/images/drawings/integration-2.png" class="integration " data-background-size="contain" -->
 
-TODO: drawing of e2e tests
+## Integration tests
 
 Notes:
 
-Easier to write in ruby/rails
+Test the system together. Does it fail? If so...
+
+---
+
+Trail: 2. Isolate, Write Tests
+
+<!-- .slide: data-background="/images/drawings/integration-3.png" class="integration " data-background-size="contain" -->
+
+## Integration tests
+
+Notes:
+
+choose a branch and write a test one level down.
+
+Does that fail?
+
+---
+
+Trail: 2. Isolate, Write Tests
+
+<!-- .slide: data-background="/images/drawings/integration-4.png" class="integration " data-background-size="contain" -->
+
+## Integration tests
+
+Notes:
+
+Write one another level down.
+
+Repeat until you get an integration test that passes.
+
+The culprit is likely related to the lowest failing integration test.
+
+...
+
+you can also combine them with debugging or logging your inputs iteratively down the tree, to find the culprit.
+
+...
+
+If you've struggled to write tests, and you'd like to talk more, please come find me.
+
+I'll do everything I can to help you get over your hurdles.
 
 ---
 
@@ -780,6 +1022,10 @@ Trail: 2. Isolate
 Notes:
 
 Common thread for "isolation" strategies ^^^
+
+Help break a problem down from something large to something small
+
+When it has a smaller surface area, it's easier to figure out.
 ---
 Layout: module
 # 3. Escape
@@ -794,16 +1040,13 @@ Notes:
 
 Take a shower, take a nap, ....
 
----
+When you relax, and shut your brain off from a problem, and let it wander,
 
-Trail: 3. Escape, Relax, Why?
+other areas of your brain activate, and can find solutions without you trying.
 
-TODO - illustrate how changing context helps your brain explore new ideas
+you're also more open-minded to the problem - and less likely to dismiss ideas that don't seem obviously related.
 
-Notes:
-
-http://mentalfloss.com/article/52586/why-do-our-best-ideas-come-us-shower
-A. In creativity research, we refer to the three Bs—for the bathtub, the bed and the bus—places where ideas have famously and suddenly emerged. When we take time off from working on a problem, we change what we're doing and our context, and that can activate different areas of our brain. If the answer wasn't in the part of the brain we were using, it might be in another. If we're lucky, in the next context we may hear or see something that relates—distantly—to the problem that we had temporarily put aside.
+Relaxing is just a great way to be creative.
 
 ---
 
@@ -811,14 +1054,12 @@ Trail: 3. Escape
 
 ## Physical exercise
 
----
+Notes:
 
-Trail: 3. Escape, Physical Exercise
-
-TODO: find research on this
-
-https://www.newyorker.com/tech/annals-of-technology/walking-helps-us-think
-https://www.ncbi.nlm.nih.gov/pubmed/20890449
+- Increases blood flow to brain
+- improves executive functions
+- Improves mood (which can give you the push you need to get back at the problem)
+- If rhythmic & repetitive, your mind can shut off & wander
 
 ---
 
@@ -830,7 +1071,13 @@ Notes:
 
 Similar effects to resting - our brain explores new ideas
 
-this is a very individualized strategy - ash plays guitar
+this is a very individualized strategy -
+
+ash plays guitar,
+
+maybe you like to draw,
+
+i like to exercise.
 
 ---
 
@@ -840,31 +1087,49 @@ Trail: 3. Escape
 
 Notes:
 
-Put this one aside. Work on something else you know how to solve. 2 things can happen:
+Put this one aside. Work on something else you know how to solve.
+
+This _feels_ like a more productive version of escaping.
+
+3 things can happen:
 
 ---
 
 Trail: 3. Escape, Move On, Why?
 
-### Your brain might come up with the answer while thinking about other things
+### 1. Solving a simpler problem can boost your confidence
+
+Notes:
+
+I do this in rock climbing. I lose confidence working on a hard route.
+
+After completing a couple simple climbs, I can attack the original problem with renewed confidence.
 
 ---
 
 Trail: 3. Escape, Move On, Why?
 
-### When you come back to the original problem, you have to re-learn it a bit
+### 2. Your brain might come up with the answer while thinking about other things
+
+---
+
+Trail: 3. Escape, Move On, Why?
+
+### 3. When you come back to the original problem, you have to re-learn it a bit
 
 Notes:
 
 This can help you challenge assumptions, like talking to the duck.
+
+...
+
+These "escape" strategies take advantage of a couple psychological principles:
 
 ---
 
 Trail: 3. Escape, Why?
 
 ## Analogical problem solving
-
-TODO: illustrate this
 
 Notes:
 
@@ -955,25 +1220,31 @@ Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and In
 
 Notes:
 
+_unusual & unexpected_
+
 ---
 
 Trail: 3. Escape, Why?, Incubation
 
-TODO: illustration of linear processing
-
-TODO: illustration of parallel processing
-
-<!-- .element: class="fragment" -->
+<!-- .slide: data-background="/images/drawings/processing-linear.png" class="processing" data-background-size="contain" -->
 
 Notes:
 
 He even goes on to compare this to parallel computing, right in our wheelhouse:
 
-when we are consciously thinking about a problem, we push it in a linear direction. Like serial processing.
+when we are consciously thinking about a problem, we push it in a linear direction.
+
+---
+
+Trail: 3. Escape, Why?, Incubation
+
+<!-- .slide: data-background="/images/drawings/processing-parallel.png" class="processing" data-background-size="contain" -->
+
+Notes:
 
 when we let it incubate, it expands to parallel processing.
 
-There's a freedom in your problem solving:
+This allows a freedom to your problem solving:
 
 things can combine in ways that your conscious mind would reject.
 
@@ -1030,9 +1301,20 @@ Remember our perspective from earlier
 
 Trail: 4. Harden
 
-## Wall of motivation
+## Learn new ways to solve problems
 
-TODO: screenshot
+Notes:
+
+- Pair (even when not stuck)
+- read code in other projects
+- explore new technologies
+- learn for the sake of learning
+
+---
+
+Trail: 4. Harden
+
+## Wall of motivation
 
 Notes:
 
@@ -1041,6 +1323,10 @@ I keep a trello board, to remind myself that I'm succeeding at my job.
 Whatever measures as a win to you
 
 For me it's messages of really helping people
+
+praise I've gotten from workshops and talks
+
+And times when I've showed great perseverance.
 
 ---
 
@@ -1056,7 +1342,9 @@ recommended when I first started at Artsy to keep a journal
 
 of things I did every day - so I could see that I **AM** getting things done.
 
-I **AM** getting unstuck, and solving problems, and contributing.
+Sometimes they aren't things I can check off a list,
+
+they are times when I knew I was doing my job of solving problems.
 
 ---
 
@@ -1077,6 +1365,14 @@ Hardens your problem solving skills & persistence.
 Trail: 4. Harden
 
 ## Meditation
+
+Notes:
+
+Variety of mental & physical benefits
+
+Especially leveling your emotions, which can factor into getting stuck
+
+and increases your ability to persist through challenges
 
 ---
 
@@ -1100,9 +1396,17 @@ Layout: Summary
 
 Trail: 4. Harden
 
-## Strengthen your TODO????
+## Condition yourself
 
-your resolve? stay driven? self-awareness?
+Notes:
+
+Get in the reps
+
+Strengthen yourself
+
+Professional athletes condition themselves for incredible physical challenges.
+
+Professional developers need to condition themselves for incredible mental challenges.
 ---
 Layout: module
 # Summary
@@ -1124,9 +1428,17 @@ Trail: Summary
 
 <!-- .element: class="fragment" -->
 
-## 4. **Harden**: Summary???
+## 4. **Harden**: Condition Yourself
 
 <!-- .element: class="fragment" -->
+
+Notes:
+
+...
+
+it is very possible that you've used every one of these strategies
+
+Even so, it can be helpful to think about them the next time you're stuck.
 
 ---
 
@@ -1141,10 +1453,6 @@ Footer: false
 - steven.j.hicks@gmail.com
 - stevenhicks.me/getting-unstuck
 
-Notes: These are notes
-
-and more notes here
-
 ---
 
 Trail: Resources
@@ -1154,3 +1462,9 @@ Trail: Resources
 - https://traviswhitecommunications.com/2012/12/26/creativity-in-five-steps/
 - http://groups.psych.northwestern.edu/gentner/papers/Gentner02a.pdf
 - https://www.blinkist.com/books/creativity-en?r=1&st=mihaly
+- Protege effect: https://effectiviology.com/protege-effect-learn-by-teaching/
+- Protege effect: http://psycnet.apa.org/doiLanding?doi=10.1037%2Fedu0000071
+- Protege effect: https://link.springer.com/article/10.3758/s13421-014-0416-z
+- Relax: http://mentalfloss.com/article/52586/why-do-our-best-ideas-come-us-shower
+- Exercise: https://www.newyorker.com/tech/annals-of-technology/walking-helps-us-think
+- Analogical problem solving: http://cognitivepsychology.wikidot.com/problem-solving:analogy

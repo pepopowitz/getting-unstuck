@@ -56,19 +56,37 @@ you can start removing code to isolate the source.
 
 Trail: 2. Isolate, Remove Code
 
+<!-- .slide: data-background="/images/drawings/remove-code-1.png" class="remove-code" data-background-size="contain" -->
+
 ## Delete code iteratively
-
-TODO: pic of deleting code iteratively/binary search
-
-<!-- .element: class="fragment" -->
 
 Notes:
 
 Binary search for the code that isn't working
 
+---
+
+Trail: 2. Isolate, Remove Code
+
+<!-- .slide: data-background="/images/drawings/remove-code-2.png" class="remove-code" data-background-size="contain" -->
+
+## Delete code iteratively
+
+Notes:
+
 This isn't always as simple as just deleting lines - often you'll need to rewrite code to accommodate the deleted lines.
 
 But you've removed complexity.
+
+---
+
+Trail: 2. Isolate, Remove Code
+
+<!-- .slide: data-background="/images/drawings/remove-code-3.png" class="remove-code" data-background-size="contain" -->
+
+## Delete code iteratively
+
+Notes:
 
 And eventually, you'll be able to isolate a smaller block of focus.
 
@@ -78,11 +96,9 @@ And then instead of dealing with 50 lines of code that don't work, you have 10.
 
 Trail: 2. Isolate, Remove Code
 
+<!-- .slide: data-background="/images/drawings/back-out-1.png" class="back-out-code" data-background-size="contain" -->
+
 ## Back out your changes iteratively
-
-TODO: pic of backing out of code iteratively/binary search
-
-<!-- .element: class="fragment" -->
 
 Notes:
 
@@ -90,7 +106,27 @@ Similarly, you can do a binary search of your recent changes.
 
 Assuming everything worked before you started making changes,
 
+---
+
+Trail: 2. Isolate, Remove Code
+
+<!-- .slide: data-background="/images/drawings/back-out-2.png" class="back-out-code" data-background-size="contain" -->
+
+## Back out your changes iteratively
+
+Notes:
+
 You can iteratively reverse them until things are working again -
+
+---
+
+Trail: 2. Isolate, Remove Code
+
+<!-- .slide: data-background="/images/drawings/back-out-3.png" class="back-out-code" data-background-size="contain" -->
+
+## Back out your changes iteratively
+
+Notes:
 
 And then you've again narrowed it down from 50 lines of code to 10 lines of code.
 
@@ -132,7 +168,7 @@ Build a proof of concept that demonstrates the problem, so it's easier to identi
 
 Trail: 2. Isolate, Proof of Concept
 
-TODO - illustrate somehow that I'm only including the pieces that I need to prove out
+TODO - lego camper as a demonstration of poc vs ripping code out
 
 ---
 
@@ -144,37 +180,49 @@ Trail: 2. Isolate, Proof of Concept, JavaScript
 
 Trail: 2. Isolate, Proof of Concept, JavaScript
 
-## Quokka.js
+## [Quokka.js](https://quokkajs.com/)
+
+quokkajs.com
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, JavaScript
 
-## JSFiddle
+## [JSFiddle](http://jsfiddle.net)
+
+jsfiddle.net
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, JavaScript
 
-## Codepen
+## [CodePen](https://codepen.io)
+
+codepen.io
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, JavaScript
 
-## CodeSandbox.io
+## [CodeSandbox](https://codesandbox.io/)
+
+codesandbox.io
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, C#/.NET
 
-## csharppad.com
+## [C# Pad](http://csharppad.com/)
+
+csharppad.com
 
 ---
 
 Trail: 2. Isolate, Proof of Concept, C#/.NET
 
-## dotnetfiddle.net
+## [.NET Fiddle](https://dotnetfiddle.net/)
+
+dotnetfiddle.net
 
 ---
 
@@ -204,6 +252,14 @@ or you can save a .rb file (or two or three), and there are equivalent options t
 
 ---
 
+Trail: 3. Isolate, Proof of Concept
+
+## [repl.it](https://repl.it)
+
+repl.it
+
+---
+
 Trail: 2. Isolate
 
 ## Eat The Frog
@@ -228,13 +284,21 @@ Mark Twain
 
 Trail: 2. Isolate, Eat The Frog
 
-TODO: pic of dependencies together
+<!-- .slide: data-background="/images/drawings/deps-scary-0.png" class="deps-scary" data-background-size="contain" -->
 
 Notes:
 
 When you're faced with building a system with a bunch of pieces
 
 And you don't know which pieces to start with
+
+---
+
+Trail: 2. Isolate, Eat The Frog
+
+<!-- .slide: data-background="/images/drawings/deps-scary-1.png" class="deps-scary" data-background-size="contain" -->
+
+Notes:
 
 Choose the scariest thing about this system - the most risky - and start there.
 
@@ -252,7 +316,7 @@ this is a good strategy in TDD, too - write code to figure out HOW you'll solve 
 
 Trail: 2. Isolate, Eat The Frog
 
-TODO: pic of complicated dependency
+<!-- .slide: data-background="/images/drawings/deps-scary-2.png" class="deps-scary" data-background-size="contain" -->
 
 Notes:
 
@@ -298,29 +362,33 @@ I get preachy about writing tests
 
 It's one of the most useful skills for breaking down a problem.
 
----
+cuz testing is the best way to tighten your development feedback loop
 
-Trail: 2. Isolate, Write Tests, Why?
+of making changes, observing their effects, and repeating the cycle.
 
-## Tight Feedback Loops
+Without tests, your loop can be loose - it could be weeks or months before you see your code deployed and know if it worked.
 
-TODO: drawing of tight feedback loops vs loose
-
-Notes:
-
-TODO: Explain what tight feedback loops are and why I care.
+With tests, your loop can be as tight as a couple seconds.
 
 ...
 
-So here are some kinds of tests you can write that will help you isolate an issue.
+A few ways automated tests can help you isolate an issue:
 
 ---
 
 Trail: 2. Isolate, Write Tests
 
+<!-- .slide: data-background="/images/drawings/unit-test-existing-1.png" class="unit-test-existing" data-background-size="contain" -->
+
 ## Unit tests of existing functions
 
-TODO: drawing of unit test of existing function
+---
+
+Trail: 2. Isolate, Write Tests
+
+<!-- .slide: data-background="/images/drawings/unit-test-existing-2.png" class="unit-test-existing" data-background-size="contain" -->
+
+## Unit tests of existing functions
 
 Notes:
 
@@ -330,15 +398,25 @@ This will help you verify if a function is the problem, or an innocent bystander
 
 Trail: 2. Isolate, Write Tests
 
-## Unit tests of new functions
+<!-- .slide: data-background="/images/drawings/extract-1.png" class="unit-test-extract" data-background-size="contain" -->
 
-TODO: drawing of unit test of new function
+## Unit tests of new functions
 
 Notes:
 
 Find pieces that look like they could be isolated.
 
-Extract them to a function, pure if possible.
+---
+
+Trail: 2. Isolate, Write Tests
+
+<!-- .slide: data-background="/images/drawings/extract-2.png" class="unit-test-extract" data-background-size="contain" -->
+
+## Unit tests of new functions
+
+Notes:
+
+Extract them to a function.
 
 Write unit tests against that function
 
@@ -348,21 +426,65 @@ Can help you narrow down whether this functionality is the problem
 
 Trail: 2. Isolate, Write Tests
 
+<!-- .slide: data-background="/images/drawings/integration-1.png" class="integration " data-background-size="contain" -->
+
 ## Integration tests
 
-TODO: drawing of integration tests
+Notes:
+
+Effective strategy: integration tests iteratively from the top down -
 
 ---
 
 Trail: 2. Isolate, Write Tests
 
-## End-to-end tests
+<!-- .slide: data-background="/images/drawings/integration-2.png" class="integration " data-background-size="contain" -->
 
-TODO: drawing of e2e tests
+## Integration tests
 
 Notes:
 
-Easier to write in ruby/rails
+Test the system together. Does it fail? If so...
+
+---
+
+Trail: 2. Isolate, Write Tests
+
+<!-- .slide: data-background="/images/drawings/integration-3.png" class="integration " data-background-size="contain" -->
+
+## Integration tests
+
+Notes:
+
+choose a branch and write a test one level down.
+
+Does that fail?
+
+---
+
+Trail: 2. Isolate, Write Tests
+
+<!-- .slide: data-background="/images/drawings/integration-4.png" class="integration " data-background-size="contain" -->
+
+## Integration tests
+
+Notes:
+
+Write one another level down.
+
+Repeat until you get an integration test that passes.
+
+The culprit is likely related to the lowest failing integration test.
+
+...
+
+you can also combine them with debugging or logging your inputs iteratively down the tree, to find the culprit.
+
+...
+
+If you've struggled to write tests, and you'd like to talk more, please come find me.
+
+I'll do everything I can to help you get over your hurdles.
 
 ---
 
@@ -374,3 +496,7 @@ Trail: 2. Isolate
 Notes:
 
 Common thread for "isolation" strategies ^^^
+
+Help break a problem down from something large to something small
+
+When it has a smaller surface area, it's easier to figure out.

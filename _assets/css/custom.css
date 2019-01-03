@@ -5,6 +5,10 @@ body {
   --brand-white: white;
 }
 
+.speaker-controls-notes .value {
+  font-size: 1rem;
+}
+
 .reveal {
   background: var(--brand-light);
   background-color: var(--brand-light);
@@ -69,7 +73,45 @@ body {
 .reveal blockquote {
   box-shadow: none;
 }
-.reveal blockquote + p {
+.reveal blockquote + p,
+.reveal ol + p {
   color: var(--brand-context);
   font-style: italic;
+  font-size: 2rem;
+}
+
+.reveal .img-30 img {
+  width: 30%;
+}
+
+.reveal .unit-test-existing > h2 {
+  margin-top: -240px;
+}
+
+.reveal .unit-test-extract > h2 {
+  margin-top: -240px;
+}
+
+.reveal .integration > h2 {
+  margin-top: -260px;
+}
+
+.reveal .eye > h2 {
+  margin-top: -200px;
+}
+
+.reveal .deps-complex > h2 {
+  margin-top: -200px;
+}
+
+.reveal .remove-code > h2 {
+  margin-top: -220px;
+}
+
+.reveal .back-out-code > h2 {
+  margin-top: -250px;
+}
+
+.reveal .deps-scary > h2 {
+  margin-top: -250px;
 }

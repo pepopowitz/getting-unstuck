@@ -12,16 +12,13 @@ Notes:
 
 Take a shower, take a nap, ....
 
----
+When you relax, and shut your brain off from a problem, and let it wander,
 
-Trail: 3. Escape, Relax, Why?
+other areas of your brain activate, and can find solutions without you trying.
 
-TODO - illustrate how changing context helps your brain explore new ideas
+you're also more open-minded to the problem - and less likely to dismiss ideas that don't seem obviously related.
 
-Notes:
-
-http://mentalfloss.com/article/52586/why-do-our-best-ideas-come-us-shower
-A. In creativity research, we refer to the three Bs—for the bathtub, the bed and the bus—places where ideas have famously and suddenly emerged. When we take time off from working on a problem, we change what we're doing and our context, and that can activate different areas of our brain. If the answer wasn't in the part of the brain we were using, it might be in another. If we're lucky, in the next context we may hear or see something that relates—distantly—to the problem that we had temporarily put aside.
+Relaxing is just a great way to be creative.
 
 ---
 
@@ -29,14 +26,12 @@ Trail: 3. Escape
 
 ## Physical exercise
 
----
+Notes:
 
-Trail: 3. Escape, Physical Exercise
-
-TODO: find research on this
-
-https://www.newyorker.com/tech/annals-of-technology/walking-helps-us-think
-https://www.ncbi.nlm.nih.gov/pubmed/20890449
+- Increases blood flow to brain
+- improves executive functions
+- Improves mood (which can give you the push you need to get back at the problem)
+- If rhythmic & repetitive, your mind can shut off & wander
 
 ---
 
@@ -48,7 +43,13 @@ Notes:
 
 Similar effects to resting - our brain explores new ideas
 
-this is a very individualized strategy - ash plays guitar
+this is a very individualized strategy -
+
+ash plays guitar,
+
+maybe you like to draw,
+
+i like to exercise.
 
 ---
 
@@ -58,31 +59,49 @@ Trail: 3. Escape
 
 Notes:
 
-Put this one aside. Work on something else you know how to solve. 2 things can happen:
+Put this one aside. Work on something else you know how to solve.
+
+This _feels_ like a more productive version of escaping.
+
+3 things can happen:
 
 ---
 
 Trail: 3. Escape, Move On, Why?
 
-### Your brain might come up with the answer while thinking about other things
+### 1. Solving a simpler problem can boost your confidence
+
+Notes:
+
+I do this in rock climbing. I lose confidence working on a hard route.
+
+After completing a couple simple climbs, I can attack the original problem with renewed confidence.
 
 ---
 
 Trail: 3. Escape, Move On, Why?
 
-### When you come back to the original problem, you have to re-learn it a bit
+### 2. Your brain might come up with the answer while thinking about other things
+
+---
+
+Trail: 3. Escape, Move On, Why?
+
+### 3. When you come back to the original problem, you have to re-learn it a bit
 
 Notes:
 
 This can help you challenge assumptions, like talking to the duck.
+
+...
+
+These "escape" strategies take advantage of a couple psychological principles:
 
 ---
 
 Trail: 3. Escape, Why?
 
 ## Analogical problem solving
-
-TODO: illustrate this
 
 Notes:
 
@@ -173,25 +192,31 @@ Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and In
 
 Notes:
 
+_unusual & unexpected_
+
 ---
 
 Trail: 3. Escape, Why?, Incubation
 
-TODO: illustration of linear processing
-
-TODO: illustration of parallel processing
-
-<!-- .element: class="fragment" -->
+<!-- .slide: data-background="/images/drawings/processing-linear.png" class="processing" data-background-size="contain" -->
 
 Notes:
 
 He even goes on to compare this to parallel computing, right in our wheelhouse:
 
-when we are consciously thinking about a problem, we push it in a linear direction. Like serial processing.
+when we are consciously thinking about a problem, we push it in a linear direction.
+
+---
+
+Trail: 3. Escape, Why?, Incubation
+
+<!-- .slide: data-background="/images/drawings/processing-parallel.png" class="processing" data-background-size="contain" -->
+
+Notes:
 
 when we let it incubate, it expands to parallel processing.
 
-There's a freedom in your problem solving:
+This allows a freedom to your problem solving:
 
 things can combine in ways that your conscious mind would reject.
 

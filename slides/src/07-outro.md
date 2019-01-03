@@ -19,9 +19,17 @@ Trail: Summary
 
 <!-- .element: class="fragment" -->
 
-## 4. **Harden**: Summary???
+## 4. **Harden**: Condition Yourself
 
 <!-- .element: class="fragment" -->
+
+Notes:
+
+...
+
+it is very possible that you've used every one of these strategies
+
+Even so, it can be helpful to think about them the next time you're stuck.
 
 ---
 
@@ -36,10 +44,6 @@ Footer: false
 - steven.j.hicks@gmail.com
 - stevenhicks.me/getting-unstuck
 
-Notes: These are notes
-
-and more notes here
-
 ---
 
 Trail: Resources
@@ -49,3 +53,9 @@ Trail: Resources
 - https://traviswhitecommunications.com/2012/12/26/creativity-in-five-steps/
 - http://groups.psych.northwestern.edu/gentner/papers/Gentner02a.pdf
 - https://www.blinkist.com/books/creativity-en?r=1&st=mihaly
+- Protege effect: https://effectiviology.com/protege-effect-learn-by-teaching/
+- Protege effect: http://psycnet.apa.org/doiLanding?doi=10.1037%2Fedu0000071
+- Protege effect: https://link.springer.com/article/10.3758/s13421-014-0416-z
+- Relax: http://mentalfloss.com/article/52586/why-do-our-best-ideas-come-us-shower
+- Exercise: https://www.newyorker.com/tech/annals-of-technology/walking-helps-us-think
+- Analogical problem solving: http://cognitivepsychology.wikidot.com/problem-solving:analogy

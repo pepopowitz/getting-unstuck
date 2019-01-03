@@ -8,4 +8,6 @@ revealOptions:
   center: true
 css: _assets/css/custom.css
 preprocessor: _build/inject.js
+width: '100%'
+height: '100%'
 ---
