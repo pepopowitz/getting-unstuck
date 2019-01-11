@@ -35,14 +35,23 @@ Even so, it can be helpful to think about them the next time you're stuck.
 
 Footer: false
 
-<!-- .slide: data-background="/images/title.jpg" class="title" -->
+<!-- .slide: data-background="/images/drawings/purrito.png" class="title" -->
 
 # Thank you!
 
-- Steven Hicks
-- @pepopowitz
-- steven.j.hicks@gmail.com
-- stevenhicks.me/getting-unstuck
+## Steven Hicks
+
+<svg class="icon">
+  <use xlink:href="#si-zocial-twitter" />
+</svg>@pepopowitz
+
+<svg class="icon">
+  <use xlink:href="#si-zocial-email" />
+</svg>steven.j.hicks@gmail.com
+
+<svg class="icon">
+  <use xlink:href="#si-zocial-cloudapp" />
+</svg>stevenhicks.me/getting-unstuck
 
 ---
 

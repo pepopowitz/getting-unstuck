@@ -67,11 +67,23 @@ This _feels_ like a more productive version of escaping.
 
 ---
 
-Trail: 3. Escape, Move On, Why?
+Trail: 3. Escape
 
-### 1. Solving a simpler problem can boost your confidence
+## Why do these work?
 
 Notes:
+
+A few things going on
+
+---
+
+Trail: 3. Escape, Why?
+
+### 1. Escaping can boost your confidence
+
+Notes:
+
+Solving a simpler problem, for example, gives you confidence that you can use to smash the original harder problem.
 
 I do this in rock climbing. I lose confidence working on a hard route.
 
@@ -79,23 +91,25 @@ After completing a couple simple climbs, I can attack the original problem with 
 
 ---
 
-Trail: 3. Escape, Move On, Why?
+Trail: 3. Escape, Why?
 
-### 2. Your brain might come up with the answer while thinking about other things
-
----
-
-Trail: 3. Escape, Move On, Why?
-
-### 3. When you come back to the original problem, you have to re-learn it a bit
+### 2. When you come back to the original problem, you have to re-learn it a bit
 
 Notes:
 
 This can help you challenge assumptions, like talking to the duck.
 
+---
+
+Trail: 3. Escape, Why?
+
+### 3. Your brain might come up with the answer while thinking about other things
+
+Notes:
+
 ...
 
-These "escape" strategies take advantage of a couple psychological principles:
+There are a couple psychological principles involved:
 
 ---
 
@@ -186,7 +200,7 @@ Notes:
 
 Trail: 3. Escape, Why?, Incubation
 
-> When we intend to solve a problem consciously, we process information in a linear, logical fashion. But when ideas call to each other on their own, **without our leading them down a straight and narrow path**, unexpected combinations may come into being.
+> When we intend to solve a problem consciously, we process information in a linear, logical fashion. But when ideas call to each other on their own, **without our leading them** down a straight and narrow path, **unexpected combinations** may come into being.
 
 Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 

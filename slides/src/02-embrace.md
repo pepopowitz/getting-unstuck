@@ -1,7 +1,7 @@
 ---
 Layout: module
 # 0. Embrace
-# The Problem
+# The Stuck
 ---
 
 ## Survey time!
@@ -78,19 +78,29 @@ Trail: 0. Embrace
 
 Notes:
 
-This is what we're getting paid to do! Solve problems. To get stuck, and then get unstuck. This is our unique skill. It's why we get paid to do our job instead of someone else.
+This is what we're getting paid to do! To get stuck, and then get unstuck. This is our unique skill. It's why we get paid to do our job instead of someone else.
 
 ---
 
 Trail: 0. Embrace
 
-# It takes time to solve problems
+# Your job is to **solve problems**
 
 Notes:
 
-So it's okay to be stuck - that's just you doing your job -
+It's okay to be stuck - that's just you doing your job -
 
-which is to solve problems, not commit lines of code.
+which is to solve problems, not write lines of code
+
+---
+
+Trail: 0. Embrace
+
+# Solving problems **takes time**
+
+Notes:
+
+So it's okay if it takes you a while
 
 ...
 

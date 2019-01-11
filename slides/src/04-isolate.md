@@ -134,6 +134,24 @@ And then you've again narrowed it down from 50 lines of code to 10 lines of code
 
 Trail: 2. Isolate, Remove Code
 
+## `git bisect`
+
+Notes:
+
+This approach is even built into git, with the bisect command
+
+Tell it where the last known good commit
+
+& the first known bad commit
+
+& it will checkout commits in between
+
+using binary search to identify where the commit broke.
+
+---
+
+Trail: 2. Isolate, Remove Code
+
 ## Use small commits!
 
 Notes:
@@ -146,15 +164,51 @@ But committing frequently means you can revert changes with Git a little bit at 
 
 ---
 
+<!-- .slide: data-background="/images/drawings/camper-complete.jpg" class="camper inverse" -->
+
+Trail: 2. Isolate
+
+Notes:
+
+If you think of your system as this super sweet lego camper
+
+And something in it isn't working right,
+
+---
+
+<!-- .slide: data-background="/images/drawings/camper-remove.jpg" class="camper inverse"-->
+
+Trail: 2. Isolate
+
+Notes:
+
+Code removal is like taking it apart.
+
+Pulling sections off, until you find that you used the wrong piece.
+
+...
+
+Sometimes though, we aren't even sure we can BUILD the camper.
+
+---
+
+<!-- .slide: data-background="/images/drawings/camper-poc.jpg" class="camper inverse" -->
+
+Trail: 2. Isolate
+
+Notes:
+
+We don't know if the wheel is going to work with the windshield is going to work with the raft.
+
+In these cases, it's useful to isolate by ....
+
+---
+
 Trail: 2. Isolate
 
 ## Build a proof of concept
 
 Notes:
-
-A binary search for the problematic code starts with a system of code, and prunes it.
-
-An alternative approach is to start from scratch, and try to recreate the system as simply as possible,
 
 building a proof of concept that these pieces should play together nicely.
 
@@ -163,12 +217,6 @@ building a proof of concept that these pieces should play together nicely.
 This is often what you'll do when you're getting ready to submit an issue to a project
 
 Build a proof of concept that demonstrates the problem, so it's easier to identify/fix the bug
-
----
-
-Trail: 2. Isolate, Proof of Concept
-
-TODO - lego camper as a demonstration of poc vs ripping code out
 
 ---
 
@@ -207,6 +255,14 @@ Trail: 2. Isolate, Proof of Concept, JavaScript
 ## [CodeSandbox](https://codesandbox.io/)
 
 codesandbox.io
+
+---
+
+Trail: 2. Isolate, Proof of Concept, JavaScript
+
+## [Glitch](https://glitch.com/)
+
+glitch.com
 
 ---
 
@@ -260,9 +316,13 @@ repl.it
 
 ---
 
+Layout: img-50
+
 Trail: 2. Isolate
 
 ## Eat The Frog
+
+![Eat the frog](/images/drawings/frog.png)
 
 Notes:
 
@@ -310,7 +370,7 @@ And it gives you information about how this system will eventually come together
 
 ...
 
-this is a good strategy in TDD, too - write code to figure out HOW you'll solve the hard problem; then throw it away & start over test-driven & with the knowledge of how you'll approach the problem.
+If the "hardest problem" seems too big...
 
 ---
 
@@ -319,8 +379,6 @@ Trail: 2. Isolate, Eat The Frog
 <!-- .slide: data-background="/images/drawings/deps-scary-2.png" class="deps-scary" data-background-size="contain" -->
 
 Notes:
-
-If the "hardest problem" seems too big,
 
 try to identify multiple problems in it,
 

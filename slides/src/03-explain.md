@@ -18,10 +18,6 @@ Trail: 1. Explain,Write
 
   <!-- .element: class="fragment" -->
 
-### Slack **to slackbot**
-
-  <!-- .element: class="fragment" -->
-
 ### StackOverflow
 
   <!-- .element: class="fragment" -->
@@ -31,6 +27,10 @@ Trail: 1. Explain,Write
   <!-- .element: class="fragment" -->
 
 ### GitHub issue
+
+  <!-- .element: class="fragment" -->
+
+### Slack **to slackbot**
 
   <!-- .element: class="fragment" -->
 

@@ -33,6 +33,10 @@ Notes:
 
 Trail: 4. Harden
 
+Footer: false
+
+<!-- .slide: data-background="/images/wall-of-motivation.png" class="inverse" -->
+
 ## Wall of motivation
 
 Notes:
@@ -43,7 +47,7 @@ Whatever measures as a win to you
 
 For me it's messages of really helping people
 
-praise I've gotten from workshops and talks
+praise I've gotten from workshops and talks and my performance
 
 And times when I've showed great perseverance.
 

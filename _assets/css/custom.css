@@ -3,6 +3,7 @@ body {
   --brand-context: green;
   --brand-light: aliceblue;
   --brand-white: white;
+  --brand-black: #222222;
 }
 
 .speaker-controls-notes .value {
@@ -13,6 +14,14 @@ body {
   background: var(--brand-light);
   background-color: var(--brand-light);
 }
+
+.reveal .inverse h1,
+.reveal .inverse h2,
+.reveal .inverse h3 {
+  color: var(--brand-white);
+  text-shadow: 0 1px 6px var(--brand-black);
+}
+
 .reveal .trail {
   position: fixed;
   top: 0;
@@ -26,6 +35,13 @@ body {
   font-size: 3rem;
   color: var(--brand-context);
 }
+.reveal .inverse .trail h1,
+.reveal .inverse .trail h2,
+.reveal .inverse .trail h3 {
+  color: var(--brand-white);
+  text-shadow: 0 1px 6px var(--brand-black);
+}
+
 .reveal .trail h1 {
   padding-right: 1rem;
 }
@@ -47,16 +63,32 @@ body {
   font-size: 2rem;
   color: var(--brand-context);
 }
-
+.reveal .inverse .footer {
+  color: var(--brand-white);
+  text-shadow: 0 1px 6px var(--brand-black);
+}
 .reveal .title {
-  color: var(--brand-light);
+  color: var(--brand-context);
   text-align: left;
 }
 .reveal .title h1,
 .reveal .title h2 {
-  color: var(--brand-light);
+  color: var(--brand-context);
+  text-shadow: 5px 6px 6px var(--brand-white), -5px 6px 6px var(--brand-white),
+    5px -6px 6px var(--brand-white), -5px -6px 6px var(--brand-white);
+  margin-left: -30px;
 }
 
+.reveal .title p {
+  text-shadow: 2px 3px 6px var(--brand-white), -2px 3px 6px var(--brand-white),
+    2px -3px 6px var(--brand-white), -2px -3px 6px var(--brand-white);
+}
+.reveal .title svg {
+  fill: var(--brand-context);
+  width: 2em;
+  height: 1em;
+  vertical-align: text-bottom;
+}
 .reveal .module h1,
 .reveal .module h2,
 .reveal .module h3,
@@ -82,6 +114,9 @@ body {
 
 .reveal .img-30 img {
   width: 30%;
+}
+.reveal .img-50 img {
+  width: 50%;
 }
 
 .reveal .unit-test-existing > h2 {
