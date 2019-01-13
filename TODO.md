@@ -7,3 +7,7 @@
 - You're stuck because your mental model is **wrong**. Taking a break forces you to rebuild it, potentially correctly this time.
 
 - Don't go through REPL's 1 by 1 - bulleted lists are fine for this.
+
+- Manoush Zomorodi Bored and Brilliant - might talk about incubation, and how letting your mind wander allows it to process ideas more creatively.
+
+- Daniel Kahneman Thinking Fast And Slow - system 1 and 2 stuff is also about linear vs parallel processing?
