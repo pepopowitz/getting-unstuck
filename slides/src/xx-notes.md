@@ -32,34 +32,3 @@ Harden: Focus on the PROCESS, not the result. Journal the things you complete; g
 Harden: Get in the reps. As Ash says, "coding takes practice, but that's all it takes."
 
 Embrace: Success is the end-state of a long series of failures; it might NOT even be the end-state. Learning might be the end-state.
-
----
-
-drawings
-
-x talk to the duck
-talk to a person (in a duck costume)
-x schematic eye
-x realistic eye
-x biz logic, settings, db, mail as symbols
-x biz logic, settings, db, mail with 1 detailed
-x biz logic, settings, db, mail with all detailed
-x deleting code iteratively/binary search
-x back out changes iteratively/binary search
-pic of dependencies together (vague)
-pic of dependencies together with one "scary"
-pic of dependencies together with scary one separated into pieces
-feedback loop as thermostat
-feedback loop (general dev - make changes, see how it affects the system)
-feedback loop (loose dev - make changes, months later deploy)
-feedback loop (tight dev - make changes, test fails in 3s)
-unit tests of existing functions
-unit test of new function (extracted)
-integration tests
-e2e tests
-linear processing of a problem
-parallel processing of a problem
-wall of motivation
-
-eat the frog?
-cover (chameleon? spider web? cat stuck in something?)
