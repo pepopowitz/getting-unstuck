@@ -177,11 +177,14 @@ Trail: 1. Explain,Why?,Protege Effect
 
 Notes:
 
+This is from a study from 2016 demonstrating the protege effect
+
+- Control: learn these things
+- experiment: Learn these things knowing you'll have to teach it
+
 Interesting thing about the protege effect is that you don't actually have to teach for it to work for you -
 
 you just have to EXPECT to teach
-
-This is from a study from 2016 demonstrating the protege effect
 
 ---
 
@@ -237,55 +240,17 @@ Trail: 1. Explain,Why?,Challenge Assumptions
 
 Trail: 1. Explain,Why?,Challenge Assumptions
 
-> 1. Scribble
-> 2. Preschematic
-> 3. Schematic
-> 4. Dawning Realism
-> 5. Pseudorealism
-> 6. Period of decision/crisis
-
-Viktor Lowenfeld's Stages Of Artistic Development, 1949
-
-Notes:
-
-Viktor Lowenfeld - professor of art education
-
-1949
-
----
-
-Trail: 1. Explain,Why?,Challenge Assumptions
-
-> 1. Scribble
-> 2. Preschematic
-> 3. **Schematic**
-> 4. **Dawning Realism**
-> 5. Pseudorealism
-> 6. Period of decision/crisis
-
-Viktor Lowenfeld's Stages Of Artistic Development, 1949
-
-Notes:
-
-I want to focus on the 3rd and 4th stages - which is when a young artist - or sometimes a 41 year old artist, like myself - transitions from drawing schemas, or symbols, to realism.
-
----
-
-Trail: 1. Explain,Why?,Challenge Assumptions
-
 <!-- .slide: data-background="/images/drawings/eye-schematic.png" class="eye" data-background-size="contain" -->
 
-## Schematic
+## Symbols vs. Reality
 
 Notes:
-
-Are really just symbols
-
-visual heuristics, kind of
 
 When we see this drawing, we recognize it instantly as an eye
 
-And when you ask me to draw an eye, as a child in the schematic stage, this is what I'd draw.
+But that's not what an eye looks like.
+
+That's just a _symbol_ of an eye. A shortcut, or a heuristic.
 
 ---
 
@@ -293,13 +258,11 @@ Trail: 1. Explain,Why?,Challenge Assumptions
 
 <!-- .slide: data-background="/images/drawings/eye-realistic.png" class="eye" data-background-size="contain" -->
 
-## Schematic vs. Realistic
+## Symbols vs. Reality
 
 Notes:
 
-But then the artist transitions to realism
-
-And this is what an eye ACTUALLY looks like
+This is what an eye ACTUALLY looks like
 
 It's not a symbol, or a heuristic
 
@@ -307,7 +270,7 @@ It has incredible detail and subtlety.
 
 ---
 
-Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Symbols vs. Reality
 
 <!-- .slide: data-background="/images/drawings/deps-0-complex.png" class="deps-complex" data-background-size="contain" -->
 
@@ -325,7 +288,7 @@ They are symbols, and you just assume they work as intended.
 
 ---
 
-Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Symbols vs. Reality
 
 <!-- .slide: data-background="/images/drawings/deps-1-complex.png" class="deps-complex" data-background-size="contain" -->
 
@@ -341,7 +304,7 @@ because if we didn't....
 
 ---
 
-Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Symbols vs. Reality
 
 <!-- .slide: data-background="/images/drawings/deps-all-complex.png" class="deps-complex" data-background-size="contain" -->
 

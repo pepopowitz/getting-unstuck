@@ -41,15 +41,27 @@ Footer: false
 
 Notes:
 
-I keep a trello board, to remind myself that I'm succeeding at my job.
+I keep a trello board that I fill with messages of appreciation & thanks, and I look back on it now and then.
 
-Whatever measures as a win to you
+Because let's face it - when you get stuck, your self-talk changes for the worse.
 
-For me it's messages of really helping people
+You start doubting yourself. You start saying awful things about yourself. Your impostor syndrome kicks in hard.
 
-praise I've gotten from workshops and talks and my performance
+A wall of motivation can **replenish your ego**
 
-And times when I've showed great perseverance.
+---
+
+Trail: 4. Harden
+
+## You're doing a great job!
+
+## ❤️🤗️❤️🤗️❤️🤗️❤️🤗️❤️
+
+Notes:
+
+and help remind you -
+
+**you're doing a great job. **
 
 ---
 
@@ -122,6 +134,8 @@ Trail: 4. Harden
 ## Condition yourself
 
 Notes:
+
+Common thread for hardening strategies:
 
 Get in the reps
 

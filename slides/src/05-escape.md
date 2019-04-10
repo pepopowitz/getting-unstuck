@@ -63,8 +63,6 @@ Put this one aside. Work on something else you know how to solve.
 
 This _feels_ like a more productive version of escaping.
 
-3 things can happen:
-
 ---
 
 Trail: 3. Escape
@@ -73,7 +71,7 @@ Trail: 3. Escape
 
 Notes:
 
-A few things going on
+3 things are happening:
 
 ---
 

@@ -84,7 +84,9 @@ This is what we're getting paid to do! To get stuck, and then get unstuck. This 
 
 Trail: 0. Embrace
 
-# Your job is to **solve problems**
+# Your job is to
+
+# **solve problems**
 
 Notes:
 

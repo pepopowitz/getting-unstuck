@@ -174,7 +174,9 @@ This is what we're getting paid to do! To get stuck, and then get unstuck. This 
 
 Trail: 0. Embrace
 
-# Your job is to **solve problems**
+# Your job is to
+
+# **solve problems**
 
 Notes:
 
@@ -374,11 +376,14 @@ Trail: 1. Explain,Why?,Protege Effect
 
 Notes:
 
+This is from a study from 2016 demonstrating the protege effect
+
+- Control: learn these things
+- experiment: Learn these things knowing you'll have to teach it
+
 Interesting thing about the protege effect is that you don't actually have to teach for it to work for you -
 
 you just have to EXPECT to teach
-
-This is from a study from 2016 demonstrating the protege effect
 
 ---
 
@@ -434,55 +439,17 @@ Trail: 1. Explain,Why?,Challenge Assumptions
 
 Trail: 1. Explain,Why?,Challenge Assumptions
 
-> 1. Scribble
-> 2. Preschematic
-> 3. Schematic
-> 4. Dawning Realism
-> 5. Pseudorealism
-> 6. Period of decision/crisis
-
-Viktor Lowenfeld's Stages Of Artistic Development, 1949
-
-Notes:
-
-Viktor Lowenfeld - professor of art education
-
-1949
-
----
-
-Trail: 1. Explain,Why?,Challenge Assumptions
-
-> 1. Scribble
-> 2. Preschematic
-> 3. **Schematic**
-> 4. **Dawning Realism**
-> 5. Pseudorealism
-> 6. Period of decision/crisis
-
-Viktor Lowenfeld's Stages Of Artistic Development, 1949
-
-Notes:
-
-I want to focus on the 3rd and 4th stages - which is when a young artist - or sometimes a 41 year old artist, like myself - transitions from drawing schemas, or symbols, to realism.
-
----
-
-Trail: 1. Explain,Why?,Challenge Assumptions
-
 <!-- .slide: data-background="/images/drawings/eye-schematic.png" class="eye" data-background-size="contain" -->
 
-## Schematic
+## Symbols vs. Reality
 
 Notes:
-
-Are really just symbols
-
-visual heuristics, kind of
 
 When we see this drawing, we recognize it instantly as an eye
 
-And when you ask me to draw an eye, as a child in the schematic stage, this is what I'd draw.
+But that's not what an eye looks like.
+
+That's just a _symbol_ of an eye. A shortcut, or a heuristic.
 
 ---
 
@@ -490,13 +457,11 @@ Trail: 1. Explain,Why?,Challenge Assumptions
 
 <!-- .slide: data-background="/images/drawings/eye-realistic.png" class="eye" data-background-size="contain" -->
 
-## Schematic vs. Realistic
+## Symbols vs. Reality
 
 Notes:
 
-But then the artist transitions to realism
-
-And this is what an eye ACTUALLY looks like
+This is what an eye ACTUALLY looks like
 
 It's not a symbol, or a heuristic
 
@@ -504,7 +469,7 @@ It has incredible detail and subtlety.
 
 ---
 
-Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Symbols vs. Reality
 
 <!-- .slide: data-background="/images/drawings/deps-0-complex.png" class="deps-complex" data-background-size="contain" -->
 
@@ -522,7 +487,7 @@ They are symbols, and you just assume they work as intended.
 
 ---
 
-Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Symbols vs. Reality
 
 <!-- .slide: data-background="/images/drawings/deps-1-complex.png" class="deps-complex" data-background-size="contain" -->
 
@@ -538,7 +503,7 @@ because if we didn't....
 
 ---
 
-Trail: 1. Explain,Why?,Challenge Assumptions,Schemas & Symbols
+Trail: 1. Explain,Why?,Challenge Assumptions,Symbols vs. Reality
 
 <!-- .slide: data-background="/images/drawings/deps-all-complex.png" class="deps-complex" data-background-size="contain" -->
 
@@ -767,107 +732,11 @@ Notes:
 
 building a proof of concept that these pieces should play together nicely.
 
-...
+Demonstrate the problem or subsystem, so it's easier to identify/fix the bug
 
-This is often what you'll do when you're getting ready to submit an issue to a project
-
-Build a proof of concept that demonstrates the problem, so it's easier to identify/fix the bug
-
----
-
-Trail: 2. Isolate, Proof of Concept, JavaScript
-
-## `> node`
-
----
-
-Trail: 2. Isolate, Proof of Concept, JavaScript
-
-## [Quokka.js](https://quokkajs.com/)
-
-quokkajs.com
-
----
-
-Trail: 2. Isolate, Proof of Concept, JavaScript
-
-## [JSFiddle](http://jsfiddle.net)
-
-jsfiddle.net
-
----
-
-Trail: 2. Isolate, Proof of Concept, JavaScript
-
-## [CodePen](https://codepen.io)
-
-codepen.io
-
----
-
-Trail: 2. Isolate, Proof of Concept, JavaScript
-
-## [CodeSandbox](https://codesandbox.io/)
-
-codesandbox.io
-
----
-
-Trail: 2. Isolate, Proof of Concept, JavaScript
-
-## [Glitch](https://glitch.com/)
-
-glitch.com
-
----
-
-Trail: 2. Isolate, Proof of Concept, C#/.NET
-
-## [C# Pad](http://csharppad.com/)
-
-csharppad.com
-
----
-
-Trail: 2. Isolate, Proof of Concept, C#/.NET
-
-## [.NET Fiddle](https://dotnetfiddle.net/)
-
-dotnetfiddle.net
-
----
-
-Trail: 2. Isolate, Proof of Concept, Ruby/Rails
-
-## `> irb`
-
----
-
-Trail: 2. Isolate, Proof of Concept, Ruby/Rails
-
-## `> rails console`
-
----
-
-Trail: 2. Isolate, Proof of Concept, Ruby/Rails
-
-## `> bundle console`
-
-Notes:
-
-(ruby console in the bundle context - like rails console w/o rails.)
-
-In all of these cases, you can run code directly in those consoles,
-
-or you can save a .rb file (or two or three), and there are equivalent options to run those files.
-
----
-
-Trail: 3. Isolate, Proof of Concept
-
-## [repl.it](https://repl.it)
-
-repl.it
+- rails console/node repl
+- jsfiddle/codepen/codesandbox
+- whatever works best for you to build in isolation.
 
 ---
 
@@ -1178,8 +1047,6 @@ Put this one aside. Work on something else you know how to solve.
 
 This _feels_ like a more productive version of escaping.
 
-3 things can happen:
-
 ---
 
 Trail: 3. Escape
@@ -1188,7 +1055,7 @@ Trail: 3. Escape
 
 Notes:
 
-A few things going on
+3 things are happening:
 
 ---
 
@@ -1423,15 +1290,27 @@ Footer: false
 
 Notes:
 
-I keep a trello board, to remind myself that I'm succeeding at my job.
+I keep a trello board that I fill with messages of appreciation & thanks, and I look back on it now and then.
 
-Whatever measures as a win to you
+Because let's face it - when you get stuck, your self-talk changes for the worse.
 
-For me it's messages of really helping people
+You start doubting yourself. You start saying awful things about yourself. Your impostor syndrome kicks in hard.
 
-praise I've gotten from workshops and talks and my performance
+A wall of motivation can **replenish your ego**
 
-And times when I've showed great perseverance.
+---
+
+Trail: 4. Harden
+
+## You're doing a great job!
+
+## ❤️🤗️❤️🤗️❤️🤗️❤️🤗️❤️
+
+Notes:
+
+and help remind you -
+
+**you're doing a great job. **
 
 ---
 
@@ -1504,6 +1383,8 @@ Trail: 4. Harden
 ## Condition yourself
 
 Notes:
+
+Common thread for hardening strategies:
 
 Get in the reps
 
