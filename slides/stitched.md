@@ -37,7 +37,7 @@ Footer: false
 
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
-</svg>stevenhicks.me/getting-unstuck
+</svg>stevenhicks.me/unstuck-forwardjs
 
 Notes:
 
@@ -84,14 +84,17 @@ or helping someone else get unstuck.
 when I hear in standup that someone is stuck, my ears perk up.
 
 Over the past few months, I've taken notes about how I and my coworkers get ourselves unstuck, and I want to share some tips with you.
-
-...
-
-My first strategy is...only kind of a strategy.
 ---
 Layout: module
 # 0. Embrace
 # The Stuck
+
+Notes:
+
+The first thing I have to offer you is less of a strategy
+
+and more of a mindset shift.
+
 ---
 
 ## Survey time!
@@ -205,7 +208,7 @@ Layout: module
 
 Trail: 1. Explain
 
-## Write a message describing the problem
+## Write about the problem
 
 ---
 
@@ -215,23 +218,13 @@ Trail: 1. Explain,Write
 
 ### Slack
 
-  <!-- .element: class="fragment" -->
-
 ### StackOverflow
-
-  <!-- .element: class="fragment" -->
 
 ### Blog post
 
-  <!-- .element: class="fragment" -->
-
 ### GitHub issue
 
-  <!-- .element: class="fragment" -->
-
 ### Slack **to slackbot**
-
-  <!-- .element: class="fragment" -->
 
 Notes:
 
@@ -354,7 +347,7 @@ you use better learning strategies.
 
 Trail: 1. Explain,Why?,Protege Effect
 
-### Forces you to think more about how things are all fitting together, so you can explain it clearly
+### Inspires you to think about how you'd learn the topic
 
 Notes:
 
@@ -670,20 +663,6 @@ using binary search to identify where the commit broke.
 
 ---
 
-Trail: 2. Isolate, Remove Code
-
-## Use small commits!
-
-Notes:
-
-Side note - this is one reason that small commits is really helpful.
-
-You don't have to push them, and you can keep amending the same commit.
-
-But committing frequently means you can revert changes with Git a little bit at a time.
-
----
-
 <!-- .slide: data-background="/images/drawings/camper-complete.jpg" class="camper inverse" -->
 
 Trail: 2. Isolate
@@ -718,6 +697,8 @@ Trail: 2. Isolate
 
 Notes:
 
+We don't know if the pieces are going to fit together.
+
 We don't know if the wheel is going to work with the windshield is going to work with the raft.
 
 In these cases, it's useful to isolate by ....
@@ -730,13 +711,9 @@ Trail: 2. Isolate
 
 Notes:
 
-building a proof of concept that these pieces should play together nicely.
+building a proof of concept that these pieces can play together nicely.
 
 Demonstrate the problem or subsystem, so it's easier to identify/fix the bug
-
-- rails console/node repl
-- jsfiddle/codepen/codesandbox
-- whatever works best for you to build in isolation.
 
 ---
 
@@ -816,41 +793,15 @@ Starting with the scariest.
 
 Trail: 2. Isolate
 
-## Log inputs
-
-Notes:
-
-Your code is a tree of function calls.
-
-Somewhere along the way, one of the functions isn't getting what it needs.
-
-Log inputs to them, to see who doesn't have what they need!
-
-...
-
-This is not an advanced tactic. It's something we learn to do pretty early as developers.
-
-But you'd be surprised how many times you get stuck on a problem, and you forget that this will help you isolate the issue.
-
----
-
-Trail: 2. Isolate
-
 ## Write tests!
 
 Notes:
 
-I get preachy about writing tests
-
-It's one of the most useful skills for breaking down a problem.
+Writing tests is one of the most useful skills for solving a problem.
 
 cuz testing is the best way to tighten your development feedback loop
 
 of making changes, observing their effects, and repeating the cycle.
-
-Without tests, your loop can be loose - it could be weeks or months before you see your code deployed and know if it worked.
-
-With tests, your loop can be as tight as a couple seconds.
 
 ...
 
@@ -957,10 +908,6 @@ Write one another level down.
 Repeat until you get an integration test that passes.
 
 The culprit is likely related to the lowest failing integration test.
-
-...
-
-you can also combine them with debugging or logging your inputs iteratively down the tree, to find the culprit.
 
 ...
 
@@ -1125,33 +1072,6 @@ Trail: 3. Escape, Why?
 
 Trail: 3. Escape, Why?, Incubation
 
-## 4 Stages of Creativity
-
-1. Preparation
-2. Incubation
-3. Illumination
-4. Verification
-
-Graham Wallas, "The Art Of Thought", 1926
-
-Notes:
-
-Political scientist
-
-1: problem is investigated consciously, in many directions
-
-2: you put the problem away. Do nothing, or do a different problem. Unconscious processing.
-
-3: the preparation & the incubation come together, and you have a sudden insight.
-
-4: conscious analysis of the idea. Prove it out.
-
-These don't happen in isolation - they very much play together.
-
----
-
-Trail: 3. Escape, Why?, Incubation
-
 ## 5 Stages of Creativity
 
 1. Preparation
@@ -1163,6 +1083,14 @@ Trail: 3. Escape, Why?, Incubation
 Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
 Notes:
+
+popularized by
+
+1: problem is investigated consciously, in many directions
+
+2: you put the problem away. Do nothing, or do a different problem. Subconscious processing.
+
+3: the preparation & the incubation come together, and you have a sudden insight.
 
 4: vet the idea
 
@@ -1177,6 +1105,8 @@ Trail: 3. Escape, Why?, Incubation
 Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
 Notes:
+
+Mihaly does a great job of describing incubation
 
 ---
 
@@ -1215,12 +1145,6 @@ when we let it incubate, it expands to parallel processing.
 This allows a freedom to your problem solving:
 
 things can combine in ways that your conscious mind would reject.
-
-...
-
-From "Creativity":
-
-The distinction between serial and parallel processing of information may also explain what happens during incubation. In a serial system like that of an old-fashioned calculator, a complex numerical problem must be solved in a sequence, one step at a time. In a parallel system such as in advanced computer software, a problem is broken up into its component steps, the partial computations are carried out simultaneously, and then these are reconstituted into a single final solution. Something similar to parallel processing may be taking place when the elements of a problem are said to be incubating. When we think consciously about an issue, our previous training and the effort to arrive at a solution push our ideas in a linear direction, usually along predictable or familiar lines. But intentionality does not work in the subconscious. Free from rational direction, ideas can combine and pursue each other every which way. Because of this freedom, original connections that would be at first rejected by the rational mind have a chance to become established.
 
 ---
 
@@ -1316,24 +1240,6 @@ and help remind you -
 
 Trail: 4. Harden
 
-## Keep a journal
-
-Notes:
-
-Another of my coworkers, Eloy, who lives on a houseboat in Amsterdam,
-
-recommended when I first started at Artsy to keep a journal
-
-of things I did every day - so I could see that I **AM** getting things done.
-
-Sometimes they aren't things I can check off a list,
-
-they are times when I knew I was doing my job of solving problems.
-
----
-
-Trail: 4. Harden
-
 ## Exercise
 
 Notes:
@@ -1422,9 +1328,11 @@ Notes:
 
 ...
 
-it is very possible that you've used every one of these strategies
+4 - harden yourself for the next time.
 
-Even so, it can be helpful to think about them the next time you're stuck.
+Because you _are_ going to get stuck again.
+
+and that's okay.
 
 ---
 
@@ -1446,9 +1354,11 @@ Footer: false
 
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
-</svg>stevenhicks.me/getting-unstuck
+</svg>stevenhicks.me/unstuck-forwardjs
 
 ---
+
+Layout: resources
 
 Trail: Resources
 

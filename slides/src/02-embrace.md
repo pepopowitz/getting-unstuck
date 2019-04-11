@@ -2,6 +2,13 @@
 Layout: module
 # 0. Embrace
 # The Stuck
+
+Notes:
+
+The first thing I have to offer you is less of a strategy
+
+and more of a mindset shift.
+
 ---
 
 ## Survey time!

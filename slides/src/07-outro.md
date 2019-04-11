@@ -27,9 +27,11 @@ Notes:
 
 ...
 
-it is very possible that you've used every one of these strategies
+4 - harden yourself for the next time.
 
-Even so, it can be helpful to think about them the next time you're stuck.
+Because you _are_ going to get stuck again.
+
+and that's okay.
 
 ---
 
@@ -51,9 +53,11 @@ Footer: false
 
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
-</svg>stevenhicks.me/getting-unstuck
+</svg>stevenhicks.me/unstuck-forwardjs
 
 ---
+
+Layout: resources
 
 Trail: Resources
 

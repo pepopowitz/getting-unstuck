@@ -24,7 +24,7 @@ Footer: false
 
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
-</svg>stevenhicks.me/getting-unstuck
+</svg>stevenhicks.me/unstuck-forwardjs
 
 Notes:
 
@@ -71,7 +71,3 @@ or helping someone else get unstuck.
 when I hear in standup that someone is stuck, my ears perk up.
 
 Over the past few months, I've taken notes about how I and my coworkers get ourselves unstuck, and I want to share some tips with you.
-
-...
-
-My first strategy is...only kind of a strategy.

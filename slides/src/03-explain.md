@@ -6,7 +6,7 @@ Layout: module
 
 Trail: 1. Explain
 
-## Write a message describing the problem
+## Write about the problem
 
 ---
 
@@ -16,23 +16,13 @@ Trail: 1. Explain,Write
 
 ### Slack
 
-  <!-- .element: class="fragment" -->
-
 ### StackOverflow
-
-  <!-- .element: class="fragment" -->
 
 ### Blog post
 
-  <!-- .element: class="fragment" -->
-
 ### GitHub issue
 
-  <!-- .element: class="fragment" -->
-
 ### Slack **to slackbot**
-
-  <!-- .element: class="fragment" -->
 
 Notes:
 
@@ -155,7 +145,7 @@ you use better learning strategies.
 
 Trail: 1. Explain,Why?,Protege Effect
 
-### Forces you to think more about how things are all fitting together, so you can explain it clearly
+### Inspires you to think about how you'd learn the topic
 
 Notes:
 

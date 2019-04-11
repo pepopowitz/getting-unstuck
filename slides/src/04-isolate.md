@@ -150,20 +150,6 @@ using binary search to identify where the commit broke.
 
 ---
 
-Trail: 2. Isolate, Remove Code
-
-## Use small commits!
-
-Notes:
-
-Side note - this is one reason that small commits is really helpful.
-
-You don't have to push them, and you can keep amending the same commit.
-
-But committing frequently means you can revert changes with Git a little bit at a time.
-
----
-
 <!-- .slide: data-background="/images/drawings/camper-complete.jpg" class="camper inverse" -->
 
 Trail: 2. Isolate
@@ -198,6 +184,8 @@ Trail: 2. Isolate
 
 Notes:
 
+We don't know if the pieces are going to fit together.
+
 We don't know if the wheel is going to work with the windshield is going to work with the raft.
 
 In these cases, it's useful to isolate by ....
@@ -210,13 +198,9 @@ Trail: 2. Isolate
 
 Notes:
 
-building a proof of concept that these pieces should play together nicely.
+building a proof of concept that these pieces can play together nicely.
 
 Demonstrate the problem or subsystem, so it's easier to identify/fix the bug
-
-- rails console/node repl
-- jsfiddle/codepen/codesandbox
-- whatever works best for you to build in isolation.
 
 ---
 
@@ -296,41 +280,15 @@ Starting with the scariest.
 
 Trail: 2. Isolate
 
-## Log inputs
-
-Notes:
-
-Your code is a tree of function calls.
-
-Somewhere along the way, one of the functions isn't getting what it needs.
-
-Log inputs to them, to see who doesn't have what they need!
-
-...
-
-This is not an advanced tactic. It's something we learn to do pretty early as developers.
-
-But you'd be surprised how many times you get stuck on a problem, and you forget that this will help you isolate the issue.
-
----
-
-Trail: 2. Isolate
-
 ## Write tests!
 
 Notes:
 
-I get preachy about writing tests
-
-It's one of the most useful skills for breaking down a problem.
+Writing tests is one of the most useful skills for solving a problem.
 
 cuz testing is the best way to tighten your development feedback loop
 
 of making changes, observing their effects, and repeating the cycle.
-
-Without tests, your loop can be loose - it could be weeks or months before you see your code deployed and know if it worked.
-
-With tests, your loop can be as tight as a couple seconds.
 
 ...
 
@@ -437,10 +395,6 @@ Write one another level down.
 Repeat until you get an integration test that passes.
 
 The culprit is likely related to the lowest failing integration test.
-
-...
-
-you can also combine them with debugging or logging your inputs iteratively down the tree, to find the culprit.
 
 ...
 

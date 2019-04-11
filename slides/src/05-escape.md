@@ -141,33 +141,6 @@ Trail: 3. Escape, Why?
 
 Trail: 3. Escape, Why?, Incubation
 
-## 4 Stages of Creativity
-
-1. Preparation
-2. Incubation
-3. Illumination
-4. Verification
-
-Graham Wallas, "The Art Of Thought", 1926
-
-Notes:
-
-Political scientist
-
-1: problem is investigated consciously, in many directions
-
-2: you put the problem away. Do nothing, or do a different problem. Unconscious processing.
-
-3: the preparation & the incubation come together, and you have a sudden insight.
-
-4: conscious analysis of the idea. Prove it out.
-
-These don't happen in isolation - they very much play together.
-
----
-
-Trail: 3. Escape, Why?, Incubation
-
 ## 5 Stages of Creativity
 
 1. Preparation
@@ -179,6 +152,14 @@ Trail: 3. Escape, Why?, Incubation
 Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
 Notes:
+
+popularized by
+
+1: problem is investigated consciously, in many directions
+
+2: you put the problem away. Do nothing, or do a different problem. Subconscious processing.
+
+3: the preparation & the incubation come together, and you have a sudden insight.
 
 4: vet the idea
 
@@ -193,6 +174,8 @@ Trail: 3. Escape, Why?, Incubation
 Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and Intervention", 1997
 
 Notes:
+
+Mihaly does a great job of describing incubation
 
 ---
 
@@ -231,12 +214,6 @@ when we let it incubate, it expands to parallel processing.
 This allows a freedom to your problem solving:
 
 things can combine in ways that your conscious mind would reject.
-
-...
-
-From "Creativity":
-
-The distinction between serial and parallel processing of information may also explain what happens during incubation. In a serial system like that of an old-fashioned calculator, a complex numerical problem must be solved in a sequence, one step at a time. In a parallel system such as in advanced computer software, a problem is broken up into its component steps, the partial computations are carried out simultaneously, and then these are reconstituted into a single final solution. Something similar to parallel processing may be taking place when the elements of a problem are said to be incubating. When we think consciously about an issue, our previous training and the effort to arrive at a solution push our ideas in a linear direction, usually along predictable or familiar lines. But intentionality does not work in the subconscious. Free from rational direction, ideas can combine and pursue each other every which way. Because of this freedom, original connections that would be at first rejected by the rational mind have a chance to become established.
 
 ---
 

@@ -150,3 +150,7 @@ body {
 .reveal .deps-scary > h2 {
   margin-top: -250px;
 }
+
+.reveal .resources ul {
+  font-size: 0.6em;
+}
