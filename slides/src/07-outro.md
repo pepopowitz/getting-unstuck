@@ -31,7 +31,7 @@ Notes:
 
 Because you _are_ going to get stuck again.
 
-and that's okay.
+and that's okay!
 
 ---
 
@@ -53,7 +53,7 @@ Footer: false
 
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
-</svg>stevenhicks.me/unstuck-forwardjs
+</svg>stevenhicks.me/getting-unstuck
 
 ---
 

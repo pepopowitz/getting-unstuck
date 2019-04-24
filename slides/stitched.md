@@ -37,7 +37,7 @@ Footer: false
 
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
-</svg>stevenhicks.me/unstuck-forwardjs
+</svg>stevenhicks.me/getting-unstuck
 
 Notes:
 
@@ -374,7 +374,23 @@ This is from a study from 2016 demonstrating the protege effect
 - Control: learn these things
 - experiment: Learn these things knowing you'll have to teach it
 
-Interesting thing about the protege effect is that you don't actually have to teach for it to work for you -
+---
+
+Trail: 1. Explain,Why?,Protege Effect
+
+> ...learning by **preparing to teach**...
+
+[Muis, Krista, et al. "Learning by preparing to teach: Fostering self-regulatory processes and achievement during complex mathematics problem solving."](http://psycnet.apa.org/doiLanding?doi=10.1037%2Fedu0000071)
+
+Notes:
+
+I want to zoom in on that large quote I just had up there.
+
+It refers to the experiment group as the "learning by preparing to teach" group
+
+They never _actually_ taught it
+
+Neat thing about the protege effect is that you don't actually have to teach for it to work for you -
 
 you just have to EXPECT to teach
 
@@ -1072,6 +1088,35 @@ Trail: 3. Escape, Why?
 
 Trail: 3. Escape, Why?, Incubation
 
+## 4 Stages of Creativity
+
+1. Preparation
+2. Incubation
+3. Illumination
+4. Verification
+
+Graham Wallas, "The Art Of Thought", 1926
+
+Notes:
+
+Originally described
+
+Political scientist
+
+1: problem is investigated consciously, in many directions
+
+2: you put the problem away. Do nothing, or do a different problem. Subconscious processing.
+
+3: the preparation & the incubation come together, and you have a sudden insight.
+
+4: conscious analysis of the idea. Prove it out.
+
+These don't happen in isolation - they very much play together.
+
+---
+
+Trail: 3. Escape, Why?, Incubation
+
 ## 5 Stages of Creativity
 
 1. Preparation
@@ -1084,17 +1129,19 @@ Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and In
 
 Notes:
 
+More recently,
+
 popularized by
 
-1: problem is investigated consciously, in many directions
-
-2: you put the problem away. Do nothing, or do a different problem. Subconscious processing.
-
-3: the preparation & the incubation come together, and you have a sudden insight.
+1-3 the same
 
 4: vet the idea
 
 5: expand on your new ideas. Test them, refine them, figure out how to best apply them.
+
+...
+
+Mihaly describes incubation really well:
 
 ---
 
@@ -1240,6 +1287,24 @@ and help remind you -
 
 Trail: 4. Harden
 
+## Keep a journal
+
+Notes:
+
+Another of my coworkers, Eloy, who lives on a houseboat in Amsterdam,
+
+recommended when I first started at Artsy to keep a journal
+
+of things I did every day - so I could see that I **AM** getting things done.
+
+Sometimes they aren't things I can check off a list,
+
+but they are times when I knew I was doing my job of solving problems.
+
+---
+
+Trail: 4. Harden
+
 ## Exercise
 
 Notes:
@@ -1332,7 +1397,7 @@ Notes:
 
 Because you _are_ going to get stuck again.
 
-and that's okay.
+and that's okay!
 
 ---
 
@@ -1354,7 +1419,7 @@ Footer: false
 
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
-</svg>stevenhicks.me/unstuck-forwardjs
+</svg>stevenhicks.me/getting-unstuck
 
 ---
 

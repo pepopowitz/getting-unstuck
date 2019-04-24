@@ -24,7 +24,7 @@ Footer: false
 
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
-</svg>stevenhicks.me/unstuck-forwardjs
+</svg>stevenhicks.me/getting-unstuck
 
 Notes:
 

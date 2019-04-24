@@ -141,6 +141,35 @@ Trail: 3. Escape, Why?
 
 Trail: 3. Escape, Why?, Incubation
 
+## 4 Stages of Creativity
+
+1. Preparation
+2. Incubation
+3. Illumination
+4. Verification
+
+Graham Wallas, "The Art Of Thought", 1926
+
+Notes:
+
+Originally described
+
+Political scientist
+
+1: problem is investigated consciously, in many directions
+
+2: you put the problem away. Do nothing, or do a different problem. Subconscious processing.
+
+3: the preparation & the incubation come together, and you have a sudden insight.
+
+4: conscious analysis of the idea. Prove it out.
+
+These don't happen in isolation - they very much play together.
+
+---
+
+Trail: 3. Escape, Why?, Incubation
+
 ## 5 Stages of Creativity
 
 1. Preparation
@@ -153,17 +182,19 @@ Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and In
 
 Notes:
 
+More recently,
+
 popularized by
 
-1: problem is investigated consciously, in many directions
-
-2: you put the problem away. Do nothing, or do a different problem. Subconscious processing.
-
-3: the preparation & the incubation come together, and you have a sudden insight.
+1-3 the same
 
 4: vet the idea
 
 5: expand on your new ideas. Test them, refine them, figure out how to best apply them.
+
+...
+
+Mihaly describes incubation really well:
 
 ---
 

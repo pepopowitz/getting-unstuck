@@ -172,7 +172,23 @@ This is from a study from 2016 demonstrating the protege effect
 - Control: learn these things
 - experiment: Learn these things knowing you'll have to teach it
 
-Interesting thing about the protege effect is that you don't actually have to teach for it to work for you -
+---
+
+Trail: 1. Explain,Why?,Protege Effect
+
+> ...learning by **preparing to teach**...
+
+[Muis, Krista, et al. "Learning by preparing to teach: Fostering self-regulatory processes and achievement during complex mathematics problem solving."](http://psycnet.apa.org/doiLanding?doi=10.1037%2Fedu0000071)
+
+Notes:
+
+I want to zoom in on that large quote I just had up there.
+
+It refers to the experiment group as the "learning by preparing to teach" group
+
+They never _actually_ taught it
+
+Neat thing about the protege effect is that you don't actually have to teach for it to work for you -
 
 you just have to EXPECT to teach
 
