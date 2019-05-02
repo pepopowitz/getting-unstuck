@@ -22,6 +22,12 @@ body {
   text-shadow: 0 1px 6px var(--brand-black);
 }
 
+.reveal .inverse.highlight h1,
+.reveal .inverse.highlight h2,
+.reveal .inverse.highlight h3 {
+  background-color: var(--brand-context);
+}
+
 .reveal .trail {
   position: fixed;
   top: 0;
@@ -40,6 +46,12 @@ body {
 .reveal .inverse .trail h3 {
   color: var(--brand-white);
   text-shadow: 0 1px 6px var(--brand-black);
+}
+
+.reveal .inverse.highlight .trail h1,
+.reveal .inverse.highlight .trail h2,
+.reveal .inverse.highlight .trail h3 {
+  padding-left: 1rem;
 }
 
 .reveal .trail h1 {

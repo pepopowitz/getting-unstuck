@@ -55,6 +55,14 @@ Footer: false
   <use xlink:href="#si-zocial-cloudapp" />
 </svg>stevenhicks.me/getting-unstuck
 
+Notes:
+
+- Thank you for your time!
+
+- Questions afterward
+
+- Enjoy the rest of \_\_\_
+
 ---
 
 Layout: resources

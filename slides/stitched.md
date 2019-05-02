@@ -41,6 +41,8 @@ Footer: false
 
 Notes:
 
+STICKERS!
+
 ---
 
 Footer: false
@@ -54,6 +56,42 @@ NYC, MKE
 our mission is to expand the art market,
 
 and we're doing that with a platform for collecting and discovering art.
+
+...
+
+I wrote my first line of Ruby code 6 months ago.
+
+I'm brand new to your community!
+
+I come from JS, and a lot of .NET before that
+
+Some things I've noticed about the Ruby & Rails community so far:
+
+---
+
+## ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️
+
+Notes:
+
+Y'all looooove heart emojis
+
+...
+
+Also, there are 18 different ways to do any one thing in ruby
+
+and I _think_ what I've identified is that if you don't want to argue with someone about your way being better,
+
+you can just say
+
+---
+
+## **idiomatic**
+
+Notes:
+
+And by some article in the treaty of ghent maybe,
+
+they are required to concede.
 
 ---
 
@@ -1255,7 +1293,7 @@ Trail: 4. Harden
 
 Footer: false
 
-<!-- .slide: data-background="/images/wall-of-motivation.png" class="inverse" -->
+<!-- .slide: data-background="/images/wall-of-motivation.png" class="inverse highlight" -->
 
 ## Wall of motivation
 
@@ -1420,6 +1458,14 @@ Footer: false
 <svg class="icon">
   <use xlink:href="#si-zocial-cloudapp" />
 </svg>stevenhicks.me/getting-unstuck
+
+Notes:
+
+- Thank you for your time!
+
+- Questions afterward
+
+- Enjoy the rest of \_\_\_
 
 ---
 

@@ -35,7 +35,7 @@ Trail: 4. Harden
 
 Footer: false
 
-<!-- .slide: data-background="/images/wall-of-motivation.png" class="inverse" -->
+<!-- .slide: data-background="/images/wall-of-motivation.png" class="inverse highlight" -->
 
 ## Wall of motivation
 
