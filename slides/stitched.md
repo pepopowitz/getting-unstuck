@@ -57,42 +57,6 @@ our mission is to expand the art market,
 
 and we're doing that with a platform for collecting and discovering art.
 
-...
-
-I wrote my first line of Ruby code 6 months ago.
-
-I'm brand new to your community!
-
-I come from JS, and a lot of .NET before that
-
-Some things I've noticed about the Ruby & Rails community so far:
-
----
-
-## ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️
-
-Notes:
-
-Y'all looooove heart emojis
-
-...
-
-Also, there are 18 different ways to do any one thing in ruby
-
-and I _think_ what I've identified is that if you don't want to argue with someone about your way being better,
-
-you can just say
-
----
-
-## **idiomatic**
-
-Notes:
-
-And by some article in the treaty of ghent maybe,
-
-they are required to concede.
-
 ---
 
 Layout: module
@@ -136,6 +100,15 @@ and more of a mindset shift.
 ---
 
 ## Survey time!
+
+1) What's your experience level (junior, mid, senior)?
+<!-- .element: class="fragment" -->
+
+2) Have you gotten stuck on a problem recently?
+<!-- .element: class="fragment" -->
+
+me) senior, yes
+<!-- .element: class="fragment" -->
 
 Notes:
 
@@ -398,6 +371,24 @@ and how others might best learn it
 Psychologists call this "metacognitive processing".
 
 ---
+Trail: 1. Explain,Why?,Protege Effect
+
+> **Control**: Learn these things
+>
+> **Experiment**: Learn these things, _then teach them_
+
+[Muis, Krista, et al. "Learning by preparing to teach: Fostering self-regulatory processes and achievement during complex mathematics problem solving."](http://psycnet.apa.org/doiLanding?doi=10.1037%2Fedu0000071)
+
+Notes:
+
+There have been a few studies about the protege effect
+
+Highlighting one from 2016
+
+- Control: learn these things
+- experiment: Learn these things knowing you'll have to teach it
+
+---
 
 Trail: 1. Explain,Why?,Protege Effect
 
@@ -407,10 +398,7 @@ Trail: 1. Explain,Why?,Protege Effect
 
 Notes:
 
-This is from a study from 2016 demonstrating the protege effect
-
-- Control: learn these things
-- experiment: Learn these things knowing you'll have to teach it
+findings
 
 ---
 
@@ -513,6 +501,10 @@ This is what an eye ACTUALLY looks like
 It's not a symbol, or a heuristic
 
 It has incredible detail and subtlety.
+
+- lots of colors in iris
+- reflection of lashes 
+- bloody fleshy thing in the corner
 
 ---
 
@@ -671,6 +663,8 @@ Notes:
 
 Similarly, you can do a binary search of your recent changes.
 
+If your code is a timeline of commits (using git)
+
 Assuming everything worked before you started making changes,
 
 ---
@@ -807,6 +801,11 @@ When you're faced with building a system with a bunch of pieces
 
 And you don't know which pieces to start with
 
+- top-left: ui
+- top-right: rails app
+- bottom-left: elasticsearch
+- bottom-right: mongodb
+
 ---
 
 Trail: 2. Isolate, Eat The Frog
@@ -869,6 +868,12 @@ Trail: 2. Isolate, Write Tests
 
 ## Unit tests of existing functions
 
+Notes:
+
+think of your system as a tree of functions calling each other
+
+write isolated tests against each of them
+
 ---
 
 Trail: 2. Isolate, Write Tests
@@ -878,6 +883,10 @@ Trail: 2. Isolate, Write Tests
 ## Unit tests of existing functions
 
 Notes:
+
+you might find the tests pass for most of them
+
+but one you can't get to pass 
 
 This will help you verify if a function is the problem, or an innocent bystander.
 
@@ -890,6 +899,10 @@ Trail: 2. Isolate, Write Tests
 ## Unit tests of new functions
 
 Notes:
+
+given a large, untested piece of code
+
+hard to write tests to cover the whole thing
 
 Find pieces that look like they could be isolated.
 
@@ -919,7 +932,9 @@ Trail: 2. Isolate, Write Tests
 
 Notes:
 
-Effective strategy: integration tests iteratively from the top down -
+thinking again of our broken feature as a subtree of function calls
+
+write an integration test that tests the entire subtree
 
 ---
 
@@ -931,7 +946,9 @@ Trail: 2. Isolate, Write Tests
 
 Notes:
 
-Test the system together. Does it fail? If so...
+the test should fail because the system isn't working as you understand it
+
+then...
 
 ---
 

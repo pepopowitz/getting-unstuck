@@ -20,6 +20,29 @@ ${trailBitElements.join('\n')}
   return slide.replace(regex, element);
 }
 
+function injectLineNumbers(slide) {
+  const regex = /^LineNumbers: (.*)$/m;
+
+  const match = slide.match(regex);
+
+  if (!match) {
+    return slide;
+  }
+
+  const lineNumbers = match[1];
+
+  const codeRegex = /```(\S*)((.|\n)*)```/m;
+  const codeMatch = slide.match(codeRegex);
+
+  if (!codeMatch) {
+    return slide;
+  }
+  console.log(codeMatch);
+  const replaceFenceWithCode = `<pre><code class="hljs lang-\$1" data-line-numbers="${lineNumbers}">$2</code></pre>`;
+
+  return slide.replace(regex, '').replace(codeRegex, replaceFenceWithCode);
+}
+
 function buildTrailBitElements(rawTrail) {
   const trailBits = rawTrail.split(',');
   return trailBits.map((item, index) => {
@@ -100,4 +123,5 @@ module.exports = {
   injectTrail,
   injectFooter,
   injectLayout,
+  injectLineNumbers,
 };

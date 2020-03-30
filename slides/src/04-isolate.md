@@ -104,6 +104,8 @@ Notes:
 
 Similarly, you can do a binary search of your recent changes.
 
+If your code is a timeline of commits (using git)
+
 Assuming everything worked before you started making changes,
 
 ---
@@ -240,6 +242,11 @@ When you're faced with building a system with a bunch of pieces
 
 And you don't know which pieces to start with
 
+- top-left: ui
+- top-right: rails app
+- bottom-left: elasticsearch
+- bottom-right: mongodb
+
 ---
 
 Trail: 2. Isolate, Eat The Frog
@@ -302,6 +309,12 @@ Trail: 2. Isolate, Write Tests
 
 ## Unit tests of existing functions
 
+Notes:
+
+think of your system as a tree of functions calling each other
+
+write isolated tests against each of them
+
 ---
 
 Trail: 2. Isolate, Write Tests
@@ -311,6 +324,10 @@ Trail: 2. Isolate, Write Tests
 ## Unit tests of existing functions
 
 Notes:
+
+you might find the tests pass for most of them
+
+but one you can't get to pass 
 
 This will help you verify if a function is the problem, or an innocent bystander.
 
@@ -323,6 +340,10 @@ Trail: 2. Isolate, Write Tests
 ## Unit tests of new functions
 
 Notes:
+
+given a large, untested piece of code
+
+hard to write tests to cover the whole thing
 
 Find pieces that look like they could be isolated.
 
@@ -352,7 +373,9 @@ Trail: 2. Isolate, Write Tests
 
 Notes:
 
-Effective strategy: integration tests iteratively from the top down -
+thinking again of our broken feature as a subtree of function calls
+
+write an integration test that tests the entire subtree
 
 ---
 
@@ -364,7 +387,9 @@ Trail: 2. Isolate, Write Tests
 
 Notes:
 
-Test the system together. Does it fail? If so...
+the test should fail because the system isn't working as you understand it
+
+then...
 
 ---
 

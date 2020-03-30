@@ -13,6 +13,15 @@ and more of a mindset shift.
 
 ## Survey time!
 
+1) What's your experience level (junior, mid, senior)?
+<!-- .element: class="fragment" -->
+
+2) Have you gotten stuck on a problem recently?
+<!-- .element: class="fragment" -->
+
+me) senior, yes
+<!-- .element: class="fragment" -->
+
 Notes:
 
 1. Who in this room considers themselves a junior in their career? mid-level? senior?

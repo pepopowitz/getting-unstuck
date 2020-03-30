@@ -158,6 +158,24 @@ and how others might best learn it
 Psychologists call this "metacognitive processing".
 
 ---
+Trail: 1. Explain,Why?,Protege Effect
+
+> **Control**: Learn these things
+>
+> **Experiment**: Learn these things, _then teach them_
+
+[Muis, Krista, et al. "Learning by preparing to teach: Fostering self-regulatory processes and achievement during complex mathematics problem solving."](http://psycnet.apa.org/doiLanding?doi=10.1037%2Fedu0000071)
+
+Notes:
+
+There have been a few studies about the protege effect
+
+Highlighting one from 2016
+
+- Control: learn these things
+- experiment: Learn these things knowing you'll have to teach it
+
+---
 
 Trail: 1. Explain,Why?,Protege Effect
 
@@ -167,10 +185,7 @@ Trail: 1. Explain,Why?,Protege Effect
 
 Notes:
 
-This is from a study from 2016 demonstrating the protege effect
-
-- Control: learn these things
-- experiment: Learn these things knowing you'll have to teach it
+findings
 
 ---
 
@@ -273,6 +288,10 @@ This is what an eye ACTUALLY looks like
 It's not a symbol, or a heuristic
 
 It has incredible detail and subtlety.
+
+- lots of colors in iris
+- reflection of lashes 
+- bloody fleshy thing in the corner
 
 ---
 

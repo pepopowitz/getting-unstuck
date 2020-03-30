@@ -1,4 +1,4 @@
-const { injectTrail, injectFooter } = require('./injectors');
+const { injectTrail, injectFooter, injectLineNumbers } = require('./injectors');
 
 describe('_build/injectors', () => {
   describe('injectTrail', () => {
@@ -75,7 +75,7 @@ Trail: Heading1,Heading2,Heading3
 ## Subtitle
 
 <div class="footer">
-  stevenhicks.me/talk-url 🦄 @pepopowitz
+  stevenhicks.me/getting-unstuck 🦄 @pepopowitz
 </div>`);
     });
 
@@ -106,12 +106,28 @@ blah blah blah
 ## Subtitle
 
 <div class="footer">
-  stevenhicks.me/talk-url 🦄 @pepopowitz
+  stevenhicks.me/getting-unstuck 🦄 @pepopowitz
 </div>
 
 Notes:
 blah blah blah
 `);
+    });
+  });
+
+  describe('injectLineNumbers', () => {
+    it('injects line numbers', () => {
+      const result = injectLineNumbers(`
+LineNumbers: 1,3,4,5-7
+
+\`\`\`javascript
+hello
+\`\`\``);
+
+      expect(result).toEqual(`
+<pre><code class="hljs lang-javascript" data-line-numbers="1,3,4,5-7">
+hello
+</code></pre>`);
     });
   });
 });
