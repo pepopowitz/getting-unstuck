@@ -204,6 +204,16 @@ building a proof of concept that these pieces can play together nicely.
 
 Demonstrate the problem or subsystem, so it's easier to identify/fix the bug
 
+aka walking skeleton
+
+...
+
+a lot of times we're stuck because we 
+
+don't know where to start: **analysis paralysis**.
+
+a proof of concept can help, but you don't always know what concepts to prove.
+
 ---
 
 Layout: img-50
@@ -216,10 +226,6 @@ Trail: 2. Isolate
 
 Notes:
 
-there's a subcategory of being stuck
-
-where you can't get started: **analysis paralysis**.
-
 my recommendation: eat the frog.
 
 ---
@@ -229,6 +235,10 @@ Trail: 2. Isolate, Eat The Frog
 > Eat a live frog first thing in the morning and nothing worse will happen to you the rest of the day.
 
 Mark Twain
+
+Notes:
+
+also heard "..and nothing worse will happen to _either_ of you..."
 
 ---
 

@@ -41,8 +41,6 @@ Footer: false
 
 Notes:
 
-STICKERS!
-
 ---
 
 Footer: false
@@ -56,6 +54,20 @@ NYC, MKE
 our mission is to expand the art market,
 
 and we're doing that with a platform for collecting and discovering art.
+
+our biggest claim to fame amongst developers is that we are open source by default.
+
+we're also known for being one of the long-time champions of react-native.
+
+---
+
+## Artsy Engineering Radio
+
+Notes:
+
+my coworkers and I have started a podcast you should listen to
+
+I don't have a page to link you yet, but you can find us by searching your fav platform for aer.
 
 ---
 
@@ -85,7 +97,9 @@ or helping someone else get unstuck.
 
 when I hear in standup that someone is stuck, my ears perk up.
 
-Over the past few months, I've taken notes about how I and my coworkers get ourselves unstuck, and I want to share some tips with you.
+I've also got a lot of teammates who are great at getting people unstuck too.
+
+I've taken notes on how we get each other unstuck, and I want to share some tips with you.
 ---
 Layout: module
 # 0. Embrace
@@ -241,6 +255,8 @@ Notes:
 
 You might not even have to send the message!
 
+Just writing it up might be enough to help you find the problem.
+
 ---
 
 Layout: img-30
@@ -270,10 +286,6 @@ Explain the problem to the duck.
 
 Walk them through the code. Out loud.
 
-...
-
-the duck can be a fake thing...
-
 ---
 
 Trail: 1. Explain
@@ -282,9 +294,7 @@ Trail: 1. Explain
 
 Notes:
 
-TODO: pic: coworker in a duck costume?
-
-Or it can be a real thing.
+Maybe you feel weird talking to an inanimate object and you'd prefer...
 
 Same thing as before, except your coworkers are the duck
 
@@ -536,9 +546,7 @@ But behind each black box lies complexity & detail
 
 ...
 
-We _have_ to treat them as black boxes, though -
-
-because if we didn't....
+So much complexity that if wee _don't_ treat them as black boxes....
 
 ---
 
@@ -552,7 +560,9 @@ We couldn't possibly understand the system. There would just be too much going o
 
 Too many details.
 
-But our black boxes don't always work as intended.
+When you get stuck, it often means our symbols don't reflect reality. 
+
+Our black boxes aren't doing what we _think_ they're doing.
 
 Explaining the problem forces you to evaluate every assumption and every black box, and explore the details of each of them.
 
@@ -763,6 +773,16 @@ building a proof of concept that these pieces can play together nicely.
 
 Demonstrate the problem or subsystem, so it's easier to identify/fix the bug
 
+aka walking skeleton
+
+...
+
+a lot of times we're stuck because we 
+
+don't know where to start: **analysis paralysis**.
+
+a proof of concept can help, but you don't always know what concepts to prove.
+
 ---
 
 Layout: img-50
@@ -775,10 +795,6 @@ Trail: 2. Isolate
 
 Notes:
 
-there's a subcategory of being stuck
-
-where you can't get started: **analysis paralysis**.
-
 my recommendation: eat the frog.
 
 ---
@@ -788,6 +804,10 @@ Trail: 2. Isolate, Eat The Frog
 > Eat a live frog first thing in the morning and nothing worse will happen to you the rest of the day.
 
 Mark Twain
+
+Notes:
+
+also heard "..and nothing worse will happen to _either_ of you..."
 
 ---
 

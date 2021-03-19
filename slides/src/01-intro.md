@@ -28,8 +28,6 @@ Footer: false
 
 Notes:
 
-STICKERS!
-
 ---
 
 Footer: false
@@ -43,6 +41,20 @@ NYC, MKE
 our mission is to expand the art market,
 
 and we're doing that with a platform for collecting and discovering art.
+
+our biggest claim to fame amongst developers is that we are open source by default.
+
+we're also known for being one of the long-time champions of react-native.
+
+---
+
+## Artsy Engineering Radio
+
+Notes:
+
+my coworkers and I have started a podcast you should listen to
+
+I don't have a page to link you yet, but you can find us by searching your fav platform for aer.
 
 ---
 
@@ -72,4 +84,6 @@ or helping someone else get unstuck.
 
 when I hear in standup that someone is stuck, my ears perk up.
 
-Over the past few months, I've taken notes about how I and my coworkers get ourselves unstuck, and I want to share some tips with you.
+I've also got a lot of teammates who are great at getting people unstuck too.
+
+I've taken notes on how we get each other unstuck, and I want to share some tips with you.

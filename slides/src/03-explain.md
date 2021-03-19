@@ -28,6 +28,8 @@ Notes:
 
 You might not even have to send the message!
 
+Just writing it up might be enough to help you find the problem.
+
 ---
 
 Layout: img-30
@@ -57,10 +59,6 @@ Explain the problem to the duck.
 
 Walk them through the code. Out loud.
 
-...
-
-the duck can be a fake thing...
-
 ---
 
 Trail: 1. Explain
@@ -69,9 +67,7 @@ Trail: 1. Explain
 
 Notes:
 
-TODO: pic: coworker in a duck costume?
-
-Or it can be a real thing.
+Maybe you feel weird talking to an inanimate object and you'd prefer...
 
 Same thing as before, except your coworkers are the duck
 
@@ -323,9 +319,7 @@ But behind each black box lies complexity & detail
 
 ...
 
-We _have_ to treat them as black boxes, though -
-
-because if we didn't....
+So much complexity that if wee _don't_ treat them as black boxes....
 
 ---
 
@@ -339,7 +333,9 @@ We couldn't possibly understand the system. There would just be too much going o
 
 Too many details.
 
-But our black boxes don't always work as intended.
+When you get stuck, it often means our symbols don't reflect reality. 
+
+Our black boxes aren't doing what we _think_ they're doing.
 
 Explaining the problem forces you to evaluate every assumption and every black box, and explore the details of each of them.
 
