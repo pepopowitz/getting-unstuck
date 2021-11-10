@@ -50,11 +50,13 @@ we're also known for being one of the long-time champions of react-native.
 
 ## Artsy Engineering Radio
 
+_[artsyengineeringradio.buzzsprout.com](https://artsyengineeringradio.buzzsprout.com/)_
+
 Notes:
 
 my coworkers and I have started a podcast you should listen to
 
-I don't have a page to link you yet, but you can find us by searching your fav platform for aer.
+building culture, burnout, making big changes, ...
 
 ---
 
@@ -78,12 +80,14 @@ You've been looking at it so long you're frustrated.
 
 ...
 
-My favorite thing in development is the act of getting unstuck,
+I do a lot of different things at Artsy -
 
-or helping someone else get unstuck.
+I work with javascript, react, ruby, rails, SQL, elasticsearch,
 
-when I hear in standup that someone is stuck, my ears perk up.
+I like to say I specialize as a generalist
 
-I've also got a lot of teammates who are great at getting people unstuck too.
+But the one thing I _love_ to do regardless of tooling is to help people get unstuck.
+
+I've also got a lot of teammates who are great at getting people unstuck.
 
 I've taken notes on how we get each other unstuck, and I want to share some tips with you.

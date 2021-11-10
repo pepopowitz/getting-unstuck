@@ -95,7 +95,9 @@ Trail: 3. Escape, Why?
 
 Notes:
 
-This can help you challenge assumptions, like talking to the duck.
+a. This can help you challenge assumptions, like talking to the duck.
+
+b. When you rebuuild your mental model of the problem, you might get those symbols/abstractions right that you were getting wrong beefore.
 
 ---
 

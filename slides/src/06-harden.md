@@ -63,6 +63,10 @@ and help remind you -
 
 **you're doing a great job. **
 
+This work is hard.
+
+And it takes time.
+
 ---
 
 Trail: 4. Harden

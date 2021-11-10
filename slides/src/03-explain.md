@@ -20,6 +20,8 @@ Trail: 1. Explain,Write
 
 ### Blog post
 
+### Journal
+
 ### GitHub issue
 
 ### Slack **to slackbot**
@@ -121,6 +123,14 @@ through 1on1, or a lunch n learn, or a workshop, or teaching interns,
 
 you've seen this.
 
+...
+
+Now you're not teaching someone a skill when you're explaining why you're stuck...
+
+but you're teaching them your mental model of the problem space .
+
+...
+
 A couple things that happen when you're teaching something:
 
 ---
@@ -154,6 +164,7 @@ and how others might best learn it
 Psychologists call this "metacognitive processing".
 
 ---
+
 Trail: 1. Explain,Why?,Protege Effect
 
 > **Control**: Learn these things
@@ -286,7 +297,7 @@ It's not a symbol, or a heuristic
 It has incredible detail and subtlety.
 
 - lots of colors in iris
-- reflection of lashes 
+- reflection of lashes
 - bloody fleshy thing in the corner
 
 ---
@@ -333,7 +344,7 @@ We couldn't possibly understand the system. There would just be too much going o
 
 Too many details.
 
-When you get stuck, it often means our symbols don't reflect reality. 
+When you get stuck, it often means our symbols don't reflect reality.
 
 Our black boxes aren't doing what we _think_ they're doing.
 

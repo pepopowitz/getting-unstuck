@@ -176,7 +176,7 @@ Pulling sections off, until you find that you used the wrong piece.
 
 ...
 
-Sometimes though, we aren't even sure we can BUILD the camper.
+Sometimes though, we aren't even sure we have the right pieces to BUILD the camper.
 
 ---
 
@@ -188,7 +188,9 @@ Notes:
 
 We don't know if the pieces are going to fit together.
 
-We don't know if the wheel is going to work with the windshield is going to work with the raft.
+We don't know if the wheel is going to work with the windshield is going to work with the raft,
+
+And maybe the reason we're stuck in this code is because these couple of dependencies are completely incompatible with each other.
 
 In these cases, it's useful to isolate by ....
 
@@ -204,13 +206,17 @@ building a proof of concept that these pieces can play together nicely.
 
 Demonstrate the problem or subsystem, so it's easier to identify/fix the bug
 
-aka walking skeleton
-
 ...
 
-a lot of times we're stuck because we 
+a lot of times we're stuck because we
 
 don't know where to start: **analysis paralysis**.
+
+We know we need to build this thing but there's all this complexity,
+
+and when we start trying to build it we get lost in thought.
+
+...
 
 a proof of concept can help, but you don't always know what concepts to prove.
 
@@ -337,7 +343,7 @@ Notes:
 
 you might find the tests pass for most of them
 
-but one you can't get to pass 
+but one you can't get to pass
 
 This will help you verify if a function is the problem, or an innocent bystander.
 

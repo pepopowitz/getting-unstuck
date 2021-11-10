@@ -63,11 +63,13 @@ we're also known for being one of the long-time champions of react-native.
 
 ## Artsy Engineering Radio
 
+_[artsyengineeringradio.buzzsprout.com](https://artsyengineeringradio.buzzsprout.com/)_
+
 Notes:
 
 my coworkers and I have started a podcast you should listen to
 
-I don't have a page to link you yet, but you can find us by searching your fav platform for aer.
+building culture, burnout, making big changes, ...
 
 ---
 
@@ -91,13 +93,15 @@ You've been looking at it so long you're frustrated.
 
 ...
 
-My favorite thing in development is the act of getting unstuck,
+I do a lot of different things at Artsy -
 
-or helping someone else get unstuck.
+I work with javascript, react, ruby, rails, SQL, elasticsearch,
 
-when I hear in standup that someone is stuck, my ears perk up.
+I like to say I specialize as a generalist
 
-I've also got a lot of teammates who are great at getting people unstuck too.
+But the one thing I _love_ to do regardless of tooling is to help people get unstuck.
+
+I've also got a lot of teammates who are great at getting people unstuck.
 
 I've taken notes on how we get each other unstuck, and I want to share some tips with you.
 ---
@@ -119,9 +123,6 @@ and more of a mindset shift.
 <!-- .element: class="fragment" -->
 
 2) Have you gotten stuck on a problem recently?
-<!-- .element: class="fragment" -->
-
-me) senior, yes
 <!-- .element: class="fragment" -->
 
 Notes:
@@ -247,6 +248,8 @@ Trail: 1. Explain,Write
 
 ### Blog post
 
+### Journal
+
 ### GitHub issue
 
 ### Slack **to slackbot**
@@ -348,6 +351,14 @@ through 1on1, or a lunch n learn, or a workshop, or teaching interns,
 
 you've seen this.
 
+...
+
+Now you're not teaching someone a skill when you're explaining why you're stuck...
+
+but you're teaching them your mental model of the problem space .
+
+...
+
 A couple things that happen when you're teaching something:
 
 ---
@@ -381,6 +392,7 @@ and how others might best learn it
 Psychologists call this "metacognitive processing".
 
 ---
+
 Trail: 1. Explain,Why?,Protege Effect
 
 > **Control**: Learn these things
@@ -513,7 +525,7 @@ It's not a symbol, or a heuristic
 It has incredible detail and subtlety.
 
 - lots of colors in iris
-- reflection of lashes 
+- reflection of lashes
 - bloody fleshy thing in the corner
 
 ---
@@ -560,7 +572,7 @@ We couldn't possibly understand the system. There would just be too much going o
 
 Too many details.
 
-When you get stuck, it often means our symbols don't reflect reality. 
+When you get stuck, it often means our symbols don't reflect reality.
 
 Our black boxes aren't doing what we _think_ they're doing.
 
@@ -745,7 +757,7 @@ Pulling sections off, until you find that you used the wrong piece.
 
 ...
 
-Sometimes though, we aren't even sure we can BUILD the camper.
+Sometimes though, we aren't even sure we have the right pieces to BUILD the camper.
 
 ---
 
@@ -757,7 +769,9 @@ Notes:
 
 We don't know if the pieces are going to fit together.
 
-We don't know if the wheel is going to work with the windshield is going to work with the raft.
+We don't know if the wheel is going to work with the windshield is going to work with the raft,
+
+And maybe the reason we're stuck in this code is because these couple of dependencies are completely incompatible with each other.
 
 In these cases, it's useful to isolate by ....
 
@@ -773,13 +787,17 @@ building a proof of concept that these pieces can play together nicely.
 
 Demonstrate the problem or subsystem, so it's easier to identify/fix the bug
 
-aka walking skeleton
-
 ...
 
-a lot of times we're stuck because we 
+a lot of times we're stuck because we
 
 don't know where to start: **analysis paralysis**.
+
+We know we need to build this thing but there's all this complexity,
+
+and when we start trying to build it we get lost in thought.
+
+...
 
 a proof of concept can help, but you don't always know what concepts to prove.
 
@@ -906,7 +924,7 @@ Notes:
 
 you might find the tests pass for most of them
 
-but one you can't get to pass 
+but one you can't get to pass
 
 This will help you verify if a function is the problem, or an innocent bystander.
 
@@ -1117,7 +1135,9 @@ Trail: 3. Escape, Why?
 
 Notes:
 
-This can help you challenge assumptions, like talking to the duck.
+a. This can help you challenge assumptions, like talking to the duck.
+
+b. When you rebuuild your mental model of the problem, you might get those symbols/abstractions right that you were getting wrong beefore.
 
 ---
 
@@ -1357,6 +1377,10 @@ Notes:
 and help remind you -
 
 **you're doing a great job. **
+
+This work is hard.
+
+And it takes time.
 
 ---
 
