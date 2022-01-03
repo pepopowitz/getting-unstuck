@@ -41,35 +41,9 @@ Footer: false
 
 Notes:
 
----
+Me!
 
-Footer: false
-
-<!-- .slide: data-background="/images/artsy.svg" data-background-size="750px" data-background-color="black" -->
-
-Notes:
-
-NYC, MKE
-
-our mission is to expand the art market,
-
-and we're doing that with a platform for collecting and discovering art.
-
-our biggest claim to fame amongst developers is that we are open source by default.
-
-we're also known for being one of the long-time champions of react-native.
-
----
-
-## Artsy Engineering Radio
-
-_[artsyengineeringradio.buzzsprout.com](https://artsyengineeringradio.buzzsprout.com/)_
-
-Notes:
-
-my coworkers and I have started a podcast you should listen to
-
-building culture, burnout, making big changes, ...
+Artsy, where we're building a platform for collecting and discovering art.
 
 ---
 
@@ -119,27 +93,27 @@ and more of a mindset shift.
 
 ## Survey time!
 
-1) What's your experience level (junior, mid, senior)?
-<!-- .element: class="fragment" -->
-
-2) Have you gotten stuck on a problem recently?
-<!-- .element: class="fragment" -->
+\#1. What is your experience level in your career? (Beginner, Intermediate, Advanced)
 
 Notes:
 
-1. Who in this room considers themselves a junior in their career? mid-level? senior?
+If you prefer to think of it as junior/mid/senior, feel free
 
 (describe the breakdown)
 
-...
+---
 
-2. Who in this room can think of a time that they were stuck?
+## Survey time!
 
-Keep your hands up
+\#2. Have you gotten stuck on a problem recently?
 
-Juniors, look around.
+Notes:
+
+Beginners, take note.
 
 This happens to all of us
+
+If you're waiting for a day when you no longer get stuck...it's not coming.
 
 ---
 
@@ -179,7 +153,7 @@ Notes:
 
 Or experience level
 
-As we saw by the hands
+As we saw by the responses
 
 ---
 
@@ -349,7 +323,9 @@ if you've ever taught someone something,
 
 through 1on1, or a lunch n learn, or a workshop, or teaching interns,
 
-you've seen this.
+or even writing a blog post about a particular topic and finding yourself researching it so that you understand it deeply enough to write the blog post,
+
+you've experienced this.
 
 ...
 
@@ -677,59 +653,19 @@ And then instead of dealing with 50 lines of code that don't work, you have 10.
 
 Trail: 2. Isolate, Remove Code
 
-<!-- .slide: data-background="/images/drawings/back-out-1.png" class="back-out-code" data-background-size="contain" -->
-
-## Back out your changes iteratively
-
-Notes:
-
-Similarly, you can do a binary search of your recent changes.
-
-If your code is a timeline of commits (using git)
-
-Assuming everything worked before you started making changes,
-
----
-
-Trail: 2. Isolate, Remove Code
-
-<!-- .slide: data-background="/images/drawings/back-out-2.png" class="back-out-code" data-background-size="contain" -->
-
-## Back out your changes iteratively
-
-Notes:
-
-You can iteratively reverse them until things are working again -
-
----
-
-Trail: 2. Isolate, Remove Code
-
 <!-- .slide: data-background="/images/drawings/back-out-3.png" class="back-out-code" data-background-size="contain" -->
 
 ## Back out your changes iteratively
 
 Notes:
 
-And then you've again narrowed it down from 50 lines of code to 10 lines of code.
+We can apply this process to our recent changes, too, and back them out one at a time.
 
----
+If your code is a timeline of commits (using git)
 
-Trail: 2. Isolate, Remove Code
+Assuming everything worked before you started making changes,
 
-## `git bisect`
-
-Notes:
-
-This approach is even built into git, with the bisect command
-
-Tell it where the last known good commit
-
-& the first known bad commit
-
-& it will checkout commits in between
-
-using binary search to identify where the commit broke.
+You can iteratively reverse them until things are working again.
 
 ---
 
@@ -786,6 +722,8 @@ Notes:
 building a proof of concept that these pieces can play together nicely.
 
 Demonstrate the problem or subsystem, so it's easier to identify/fix the bug
+
+Build it in a sandboxed environment, with only the required pieces to prove the implementation.
 
 ...
 
@@ -894,85 +832,19 @@ cuz testing is the best way to tighten your development feedback loop
 
 of making changes, observing their effects, and repeating the cycle.
 
-...
-
-A few ways automated tests can help you isolate an issue:
-
----
-
-Trail: 2. Isolate, Write Tests
-
-<!-- .slide: data-background="/images/drawings/unit-test-existing-1.png" class="unit-test-existing" data-background-size="contain" -->
-
-## Unit tests of existing functions
-
-Notes:
-
-think of your system as a tree of functions calling each other
-
-write isolated tests against each of them
-
----
-
-Trail: 2. Isolate, Write Tests
-
-<!-- .slide: data-background="/images/drawings/unit-test-existing-2.png" class="unit-test-existing" data-background-size="contain" -->
-
-## Unit tests of existing functions
-
-Notes:
-
-you might find the tests pass for most of them
-
-but one you can't get to pass
-
-This will help you verify if a function is the problem, or an innocent bystander.
-
----
-
-Trail: 2. Isolate, Write Tests
-
-<!-- .slide: data-background="/images/drawings/extract-1.png" class="unit-test-extract" data-background-size="contain" -->
-
-## Unit tests of new functions
-
-Notes:
-
-given a large, untested piece of code
-
-hard to write tests to cover the whole thing
-
-Find pieces that look like they could be isolated.
-
----
-
-Trail: 2. Isolate, Write Tests
-
-<!-- .slide: data-background="/images/drawings/extract-2.png" class="unit-test-extract" data-background-size="contain" -->
-
-## Unit tests of new functions
-
-Notes:
-
-Extract them to a function.
-
-Write unit tests against that function
-
-Can help you narrow down whether this functionality is the problem
-
 ---
 
 Trail: 2. Isolate, Write Tests
 
 <!-- .slide: data-background="/images/drawings/integration-1.png" class="integration " data-background-size="contain" -->
 
-## Integration tests
-
 Notes:
 
-thinking again of our broken feature as a subtree of function calls
+Whether it's through unit tests of a tree of function calls,
 
-write an integration test that tests the entire subtree
+integration tests of a tree of components,
+
+or end-to-end tests of a running app,
 
 ---
 
@@ -980,13 +852,9 @@ Trail: 2. Isolate, Write Tests
 
 <!-- .slide: data-background="/images/drawings/integration-2.png" class="integration " data-background-size="contain" -->
 
-## Integration tests
-
 Notes:
 
-the test should fail because the system isn't working as you understand it
-
-then...
+Writing a failing test at a high level
 
 ---
 
@@ -994,13 +862,8 @@ Trail: 2. Isolate, Write Tests
 
 <!-- .slide: data-background="/images/drawings/integration-3.png" class="integration " data-background-size="contain" -->
 
-## Integration tests
-
 Notes:
-
-choose a branch and write a test one level down.
-
-Does that fail?
+and then iteratively at more isolated/granular levels
 
 ---
 
@@ -1008,21 +871,9 @@ Trail: 2. Isolate, Write Tests
 
 <!-- .slide: data-background="/images/drawings/integration-4.png" class="integration " data-background-size="contain" -->
 
-## Integration tests
-
 Notes:
 
-Write one another level down.
-
-Repeat until you get an integration test that passes.
-
-The culprit is likely related to the lowest failing integration test.
-
-...
-
-If you've struggled to write tests, and you'd like to talk more, please come find me.
-
-I'll do everything I can to help you get over your hurdles.
+Can you help you identify which of those pieces of the broken lego camper are causing the problem.
 
 ---
 
@@ -1183,35 +1034,6 @@ Trail: 3. Escape, Why?
 
 Trail: 3. Escape, Why?, Incubation
 
-## 4 Stages of Creativity
-
-1. Preparation
-2. Incubation
-3. Illumination
-4. Verification
-
-Graham Wallas, "The Art Of Thought", 1926
-
-Notes:
-
-Originally described
-
-Political scientist
-
-1: problem is investigated consciously, in many directions
-
-2: you put the problem away. Do nothing, or do a different problem. Subconscious processing.
-
-3: the preparation & the incubation come together, and you have a sudden insight.
-
-4: conscious analysis of the idea. Prove it out.
-
-These don't happen in isolation - they very much play together.
-
----
-
-Trail: 3. Escape, Why?, Incubation
-
 ## 5 Stages of Creativity
 
 1. Preparation
@@ -1224,17 +1046,23 @@ Mihaly Csikszentmihaly, "Creativity: Flow and the Psychology of Discovery and In
 
 Notes:
 
-More recently,
+originally proposed by a political scientist named Graham Wallas in the 1920s,
 
-popularized by
+Mihaly C refined the stages of creativity to what you see here.
 
-1-3 the same
+1: problem is investigated consciously, in many directions
 
-4: vet the idea
+2: you put the problem away. Do nothing, or do a different problem. Subconscious processing.
+
+3: the preparation & the incubation come together, and you have a sudden insight.
+
+4: vet the idea. look at it critically.
 
 5: expand on your new ideas. Test them, refine them, figure out how to best apply them.
 
 ...
+
+These don't happen in isolation -- they play together.
 
 Mihaly describes incubation really well:
 
@@ -1356,13 +1184,17 @@ Footer: false
 
 Notes:
 
-I keep a trello board that I fill with messages of appreciation & thanks, and I look back on it now and then.
+I keep a trello board that I fill with messages of appreciation & thanks, I call it my wall of motivation.
 
-Because let's face it - when you get stuck, your self-talk changes for the worse.
+Others have called this a brag doc, including ????
+
+But just as important as keeping it is looking back on it now and then
+
+If you're like me, when you get stuck, your self-talk changes for the worse.
 
 You start doubting yourself. You start saying awful things about yourself. Your impostor syndrome kicks in hard.
 
-A wall of motivation can **replenish your ego**
+A wall of motivation can **replenish your ego**, as long as you remember to look at it, ...
 
 ---
 
@@ -1374,11 +1206,13 @@ Trail: 4. Harden
 
 Notes:
 
-and help remind you -
+and it can help remind you -
 
 **you're doing a great job. **
 
-This work is hard.
+It might not always feel like it.
+
+But this work is hard.
 
 And it takes time.
 
@@ -1390,15 +1224,13 @@ Trail: 4. Harden
 
 Notes:
 
-Another of my coworkers, Eloy, who lives on a houseboat in Amsterdam,
+Keep a list of things you do every day - so you can see that you **are** getting things done.
 
-recommended when I first started at Artsy to keep a journal
+Sometimes they may not be huge like shipping a feature,
 
-of things I did every day - so I could see that I **AM** getting things done.
+but if you celebrate your learnings, your discoveries, even small steps forward,
 
-Sometimes they aren't things I can check off a list,
-
-but they are times when I knew I was doing my job of solving problems.
+you can look back and see that you're doing your job of solving problems.
 
 ---
 

@@ -28,35 +28,9 @@ Footer: false
 
 Notes:
 
----
+Me!
 
-Footer: false
-
-<!-- .slide: data-background="/images/artsy.svg" data-background-size="750px" data-background-color="black" -->
-
-Notes:
-
-NYC, MKE
-
-our mission is to expand the art market,
-
-and we're doing that with a platform for collecting and discovering art.
-
-our biggest claim to fame amongst developers is that we are open source by default.
-
-we're also known for being one of the long-time champions of react-native.
-
----
-
-## Artsy Engineering Radio
-
-_[artsyengineeringradio.buzzsprout.com](https://artsyengineeringradio.buzzsprout.com/)_
-
-Notes:
-
-my coworkers and I have started a podcast you should listen to
-
-building culture, burnout, making big changes, ...
+Artsy, where we're building a platform for collecting and discovering art.
 
 ---
 

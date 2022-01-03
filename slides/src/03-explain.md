@@ -121,7 +121,9 @@ if you've ever taught someone something,
 
 through 1on1, or a lunch n learn, or a workshop, or teaching interns,
 
-you've seen this.
+or even writing a blog post about a particular topic and finding yourself researching it so that you understand it deeply enough to write the blog post,
+
+you've experienced this.
 
 ...
 

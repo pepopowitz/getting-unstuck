@@ -41,13 +41,17 @@ Footer: false
 
 Notes:
 
-I keep a trello board that I fill with messages of appreciation & thanks, and I look back on it now and then.
+I keep a trello board that I fill with messages of appreciation & thanks, I call it my wall of motivation.
 
-Because let's face it - when you get stuck, your self-talk changes for the worse.
+Others have called this a brag doc, including ????
+
+But just as important as keeping it is looking back on it now and then
+
+If you're like me, when you get stuck, your self-talk changes for the worse.
 
 You start doubting yourself. You start saying awful things about yourself. Your impostor syndrome kicks in hard.
 
-A wall of motivation can **replenish your ego**
+A wall of motivation can **replenish your ego**, as long as you remember to look at it, ...
 
 ---
 
@@ -59,11 +63,13 @@ Trail: 4. Harden
 
 Notes:
 
-and help remind you -
+and it can help remind you -
 
 **you're doing a great job. **
 
-This work is hard.
+It might not always feel like it.
+
+But this work is hard.
 
 And it takes time.
 
@@ -75,15 +81,13 @@ Trail: 4. Harden
 
 Notes:
 
-Another of my coworkers, Eloy, who lives on a houseboat in Amsterdam,
+Keep a list of things you do every day - so you can see that you **are** getting things done.
 
-recommended when I first started at Artsy to keep a journal
+Sometimes they may not be huge like shipping a feature,
 
-of things I did every day - so I could see that I **AM** getting things done.
+but if you celebrate your learnings, your discoveries, even small steps forward,
 
-Sometimes they aren't things I can check off a list,
-
-but they are times when I knew I was doing my job of solving problems.
+you can look back and see that you're doing your job of solving problems.
 
 ---
 
