@@ -28,9 +28,27 @@ Footer: false
 
 Notes:
 
-Me!
+steve/steven
+
+contact info & url
+
+milwaukee
 
 Artsy, where we're building a platform for collecting and discovering art.
+
+thank you to the organizers of you got this
+
+---
+
+## Survey time!
+
+1. What is your experience level in your career? (Beginner, Intermediate, Advanced)
+
+2. Have you gotten stuck on a problem recently? (Yes, No)
+
+Notes:
+
+If you prefer to think of it as junior/mid/senior, feel free
 
 ---
 

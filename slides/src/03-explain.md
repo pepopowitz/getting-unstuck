@@ -24,7 +24,7 @@ Trail: 1. Explain,Write
 
 ### GitHub issue
 
-### Slack **to slackbot**
+### #dev-help
 
 Notes:
 

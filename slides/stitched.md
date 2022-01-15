@@ -41,9 +41,27 @@ Footer: false
 
 Notes:
 
-Me!
+steve/steven
+
+contact info & url
+
+milwaukee
 
 Artsy, where we're building a platform for collecting and discovering art.
+
+thank you to the organizers of you got this
+
+---
+
+## Survey time!
+
+1. What is your experience level in your career? (Beginner, Intermediate, Advanced)
+
+2. Have you gotten stuck on a problem recently? (Yes, No)
+
+Notes:
+
+If you prefer to think of it as junior/mid/senior, feel free
 
 ---
 
@@ -105,7 +123,7 @@ If you prefer to think of it as junior/mid/senior, feel free
 
 ## Survey time!
 
-\#2. Have you gotten stuck on a problem recently?
+\#2. Have you gotten stuck on a problem recently? (Yes, No)
 
 Notes:
 
@@ -226,7 +244,7 @@ Trail: 1. Explain,Write
 
 ### GitHub issue
 
-### Slack **to slackbot**
+### #dev-help
 
 Notes:
 
@@ -1186,9 +1204,11 @@ Notes:
 
 I keep a trello board that I fill with messages of appreciation & thanks, I call it my wall of motivation.
 
-Others have called this a brag doc, including ????
+There's a talk in the You Got This talk library by Gargi Sharma about making your work visible, she mentions Julia Evans's idea of the "brag doc" -- pretty much the same thing
 
-But just as important as keeping it is looking back on it now and then
+...
+
+Just as important as keeping it is looking back on it now and then
 
 If you're like me, when you get stuck, your self-talk changes for the worse.
 

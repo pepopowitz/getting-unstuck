@@ -25,7 +25,7 @@ If you prefer to think of it as junior/mid/senior, feel free
 
 ## Survey time!
 
-\#2. Have you gotten stuck on a problem recently?
+\#2. Have you gotten stuck on a problem recently? (Yes, No)
 
 Notes:
 

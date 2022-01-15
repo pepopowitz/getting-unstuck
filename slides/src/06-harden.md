@@ -43,9 +43,11 @@ Notes:
 
 I keep a trello board that I fill with messages of appreciation & thanks, I call it my wall of motivation.
 
-Others have called this a brag doc, including ????
+There's a talk in the You Got This talk library by Gargi Sharma about making your work visible, she mentions Julia Evans's idea of the "brag doc" -- pretty much the same thing
 
-But just as important as keeping it is looking back on it now and then
+...
+
+Just as important as keeping it is looking back on it now and then
 
 If you're like me, when you get stuck, your self-talk changes for the worse.
 
